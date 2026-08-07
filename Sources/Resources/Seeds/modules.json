@@ -1,0 +1,611 @@
+[
+  {
+    "id": "Attempt Discipline",
+    "name": "Attempt Discipline",
+    "folder": "03 Modules",
+    "trains": [
+      "[[Patience]]",
+      "[[Intent]]"
+    ],
+    "blocks": [
+      2,
+      3,
+      4
+    ],
+    "frequency": "",
+    "placement": "",
+    "dose": "",
+    "progressionRule": "",
+    "stopRules": ""
+  },
+  {
+    "id": "Movement Efficiency Drills",
+    "name": "Movement Efficiency Drills",
+    "folder": "03 Modules",
+    "trains": [
+      "[[Movement Efficiency]]"
+    ],
+    "blocks": [
+      "all"
+    ],
+    "frequency": "",
+    "placement": "within skill sessions",
+    "dose": "",
+    "progressionRule": "Film the same benchmark boulder in week 1, week 12, and week 22. Compare hip paths. Closest thing to objective skill measurement without a lab, and more informative than I expect.\n\nLinks: [[Movement Efficiency]] · [[Pacing and Rhythm]] · [[Leverage]] · [[Deload]]",
+    "stopRules": ""
+  },
+  {
+    "id": "One Arm Progression",
+    "name": "One Arm Progression",
+    "folder": "03 Modules",
+    "trains": [
+      "[[Pulling Strength]]",
+      "[[Shoulder Capacity]]"
+    ],
+    "blocks": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "frequency": "2x weekly, 15-20 min",
+    "placement": "",
+    "dose": "Both sides, every session, after warm-up.\n\n| Stage | Exercise | Target |\n| --- | --- | --- |\n| 0 | Two-arm lock-off at full, 90°, 120° | 3 × 20 s each angle |\n| 1 | One-arm scapular hang, scapula set | 5 × 10 s each |\n| 2 | One-arm lock-off at full, other hand assisting at the wrist | 5 × 8 s each |\n| 3 | **One-arm lock-off at full, unassisted** ← entry | 3 × 10 s each |\n| 4 | One-arm lock-off at 90° elbow | 3 × 8 s each |\n| 5 | One-arm lock-off at 120° elbow | 3 × 5 s each |\n| 6 | One-arm negative from full lock, 5 s descent | 3 × 3 each |\n| 7 | Band or pulley-assisted one-arm pull-up, assistance reducing | 3 × 3 each |\n| 8 | One-arm pull-up | 1 |",
+    "progressionRule": "Advance when the target is hit **on both sides** across two consecutive sessions. Both sides matters — asymmetry is worth tracking on its own.",
+    "stopRules": "- **Pain.** Not the painless click, which lives in underclings and cross-body work rather than here, and has never appeared on bars. Pain is a stop.\n- Dead-arm or sudden weakness. Stop, get assessed.\n- Medial elbow tenderness. One-arm work loads the medial elbow hard, and this is the most likely injury in this module — more likely than anything shoulder-related given how bar work behaves. Back one stage, double [[Antagonist and Wrist]] for a week.\n- Asymmetry over 20% in hold time between sides: work the weak side only until it closes.\n- Clicking appearing on bar work, which has always been clean. That's a change in pattern and worth an assessment."
+  },
+  {
+    "id": "Style Roulette",
+    "name": "Style Roulette",
+    "folder": "03 Modules",
+    "trains": [
+      "[[Motor Learning]]"
+    ],
+    "blocks": [
+      1,
+      2,
+      3
+    ],
+    "frequency": "",
+    "placement": "main content of skill sessions",
+    "dose": "Eight style cards. Draw at random. One boulder per card, then draw again.\n\n1. Slab or vertical, technical feet\n2. 25-30° overhang, crimps\n3. 40°+ overhang, big moves\n4. Compression, opposing pressure\n5. Slopers\n6. Coordination or run-and-jump\n7. Roof\n8. Sit-start power move\n\nForty minutes, one to two grades below limit. Breadth and unpredictability, not difficulty.",
+    "progressionRule": "",
+    "stopRules": "- Never two consecutive boulders of the same style. Same card drawn twice → redraw.\n- No boulder repeated more than twice in a session. Repetition is blocked practice.\n- Accept feeling worse at the end than the start. Feeling more competent means the session was too easy or too blocked. Psychologically unpleasant, worth tolerating."
+  },
+  {
+    "id": "Hip and Ankle Mobility",
+    "name": "Hip and Ankle Mobility",
+    "folder": "03 Modules",
+    "trains": [
+      "[[Flexibility and Mobility]]"
+    ],
+    "blocks": [
+      "all"
+    ],
+    "frequency": "3x weekly, 12 minutes",
+    "placement": "",
+    "dose": "Hold each 45-60 s, or 8-10 slow reps for dynamic items.\n\n**Hip external rotation** — drop knees, heel hooks, twisting moves.\n1. 90/90 seated rotations, both directions.\n2. Frog stretch, active, pressing knees down rather than sinking.\n3. Pigeon, torso upright.\n\n**Hip flexion and abduction** — high steps and froggers.\n4. Deep squat hold, heels down, elbows inside knees.\n5. Cossack squats, 8 each side.\n6. Standing wall-supported box split, progressing heel-to-heel distance.\n\n**Hip internal rotation** — the neglected one, and what protects my knee in a drop knee.\n7. Seated internal rotation, both sides.\n\n**Ankle dorsiflexion** — whether my hips get over a high foot.\n8. Knee-to-wall mobilisation, 10 each, measuring toe-to-wall distance.\n9. Calf and soleus stretch, bent knee.",
+    "progressionRule": "Measure two things monthly: heel-to-heel box split and toe-to-wall dorsiflexion. Log in [[Test Battery]]. Expect slow change.",
+    "stopRules": ""
+  },
+  {
+    "id": "Tension Circuit",
+    "name": "Tension Circuit",
+    "folder": "03 Modules",
+    "trains": [
+      "[[Tension]]"
+    ],
+    "blocks": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "frequency": "",
+    "placement": "end of session",
+    "dose": "",
+    "progressionRule": "Steeper wall, smaller base of support, longer reach, or a harder lever tuck. Not more time past 45 s.",
+    "stopRules": ""
+  },
+  {
+    "id": "Pacing Drills",
+    "name": "Pacing Drills",
+    "folder": "03 Modules",
+    "trains": [
+      "[[Pacing and Rhythm]]"
+    ],
+    "blocks": [
+      1,
+      2,
+      3
+    ],
+    "frequency": "",
+    "placement": "within skill sessions",
+    "dose": "",
+    "progressionRule": "",
+    "stopRules": ""
+  },
+  {
+    "id": "Max Hangs",
+    "name": "Max Hangs",
+    "folder": "03 Modules",
+    "trains": [
+      "[[Finger Strength]]",
+      "[[Tendon Health]]"
+    ],
+    "blocks": [
+      1,
+      2,
+      4
+    ],
+    "frequency": "",
+    "placement": "first thing after warm-up",
+    "dose": "`3-5 x MAW Hangs x 18-20mm x 7\"-12\" (2-4) :3'-5'`\n\n- 3-5 sets, build to 5 by week 4 of a block.\n- 18 or 20 mm, half crimp, thumb off.\n- 7-12 s per hang.\n- Margin 2-4 s. Could hold 14, hang 10.\n- 3-5 min rest. Take all of it — neural work.",
+    "progressionRule": "- +1-2.5 kg when I hit the prescribed duration with the prescribed margin twice in a row.\n- Ceiling 5% added load per session. [[Tendon Health]].\n- Twice weekly. Three times only in [[Block 2 — Max Strength]] and only with no morning finger stiffness.\n- Hold the method 6-12 weeks before judging it.",
+    "stopRules": "- Grip position change mid-hang ends the set; it doesn't count.\n- Palpation tenderness over a pulley: switch to 25-30 mm, drop load 30%.\n- Morning stiffness taking over 15 min to clear: reduce volume 30% for a week.\n- Never at the end of a session."
+  },
+  {
+    "id": "Readiness Monitoring",
+    "name": "Readiness Monitoring",
+    "folder": "03 Modules",
+    "trains": [
+      "[[Fatigue]]",
+      "[[Deload]]"
+    ],
+    "blocks": [
+      "all"
+    ],
+    "frequency": "every morning, 60 seconds",
+    "placement": "",
+    "dose": "",
+    "progressionRule": "",
+    "stopRules": ""
+  },
+  {
+    "id": "MED Hangs",
+    "name": "MED Hangs",
+    "folder": "03 Modules",
+    "trains": [
+      "[[Finger Strength]]"
+    ],
+    "blocks": [
+      2,
+      3
+    ],
+    "frequency": "",
+    "placement": "first thing after warm-up",
+    "dose": "`3-5 x MED Hangs x 5\"-12\" (1-3) :3'-5'`\n\n- Smallest edge I could hold for the target duration plus margin.\n- Bodyweight only.\n- 5-12 s.\n- Margin 1-3 s.\n- 3-5 min rest.",
+    "progressionRule": "- One edge step down every two weeks maximum.\n- Within an edge, +1 s per session to the top of the range, then step down.\n- Twice weekly.",
+    "stopRules": "Same as [[Max Hangs]], plus: on the smallest edge, any sense that fingertip skin is the limiting factor means stop. That's testing skin, not fingers, and I pay in [[Skin]] for no strength gain.\n\nLinks: [[Max Hangs]] · [[Grip Positions]] · [[Tendon Health]] · [[Skin]]"
+  },
+  {
+    "id": "Weighted Pulls",
+    "name": "Weighted Pulls",
+    "folder": "03 Modules",
+    "trains": [
+      "[[Pulling Strength]]"
+    ],
+    "blocks": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "frequency": "2x weekly",
+    "placement": "S6 primary",
+    "dose": "| Block | Prescription |\n| --- | --- |\n| 1 | 4 × 5 @ 75-80% est. 1RM |\n| 2 | 5 × 3 @ 85-90%, one top double at 92% in weeks 10-12 |\n| 3 | 4 × 4 @ 82-85%, maintenance while [[One Arm Progression]] takes the load |\n| 4 | 3 × 3 @ 80%, maintenance |\n\n3 minutes rest. Full range — bottom to chin over bar.\n\nPair with rows, 3 × 8-10, for balanced scapular work. Not as a restriction, just because horizontal pulling builds the pivoters and I want them.",
+    "progressionRule": "+2.5 kg when all sets hit the top of the rep range with clean form. Recalculate estimated 1RM every four weeks from a 2-3RM rather than testing a single.",
+    "stopRules": "- Pain, as distinct from muscular fatigue. Not the painless click, which doesn't appear on bars.\n- Medial elbow tenderness: cut load 20%, double [[Antagonist and Wrist]].\n- Dead-arm or sudden weakness at any point: stop, get assessed.\n\nLinks: [[Pulling Strength]] · [[One Arm Progression]] · [[Shoulder Capacity]] · [[S6 Skill and Pull]] · [[Benchmarks]]"
+  },
+  {
+    "id": "Arousal Calibration",
+    "name": "Arousal Calibration",
+    "folder": "03 Modules",
+    "trains": [
+      "[[Arousal]]",
+      "[[Focus]]"
+    ],
+    "blocks": [
+      2,
+      3,
+      4
+    ],
+    "frequency": "",
+    "placement": "every meaningful attempt",
+    "dose": "Before every attempt on a limit boulder or project, log two numbers and one word. Five seconds.\n\n```\nAttempt 4 | arousal 7 | cue \"left hip\" | crux hold, both hands, fell on the move to the lip\n```\n\nArousal 1-10, where 1 is nearly asleep and 10 is shaking. After 30-40 logged attempts, look at where my successes and best attempts cluster.",
+    "progressionRule": "",
+    "stopRules": ""
+  },
+  {
+    "id": "Lower Limb Resilience",
+    "name": "Lower Limb Resilience",
+    "folder": "03 Modules",
+    "trains": [
+      "shin and calf load tolerance"
+    ],
+    "blocks": [
+      "all"
+    ],
+    "frequency": "2x weekly, 8 minutes",
+    "placement": "",
+    "dose": "",
+    "progressionRule": "",
+    "stopRules": ""
+  },
+  {
+    "id": "Focal Point Warm-Up",
+    "name": "Focal Point Warm-Up",
+    "folder": "03 Modules",
+    "trains": [
+      "[[Footwork]]",
+      "[[Precision]]",
+      "[[Motor Learning]]"
+    ],
+    "blocks": [
+      "all"
+    ],
+    "frequency": "every wall session, inside the warm-up",
+    "placement": "",
+    "dose": "Five to eight minutes, inside the existing warm-up, on terrain three or more grades below limit. No added session time.",
+    "progressionRule": "",
+    "stopRules": "- **One focal point.** Two is zero.\n- Below limit, always. A focal point on hard terrain becomes a distraction.\n- Name it out loud before starting. Write it in the session log.\n- If I can't remember which focal point I used by the end of the session, I didn't use one."
+  },
+  {
+    "id": "Shoulder Protocol",
+    "name": "Shoulder Protocol",
+    "folder": "03 Modules",
+    "trains": [
+      "[[Shoulder Capacity]]"
+    ],
+    "blocks": [
+      "all"
+    ],
+    "frequency": "3x weekly, 15 minutes",
+    "placement": "",
+    "dose": "**Cuff, under real load — 6 min**\n\n1. **Half-kneeling banded or cable external rotation at 90° abduction.** 3 × 8-10 each side, heavy enough that rep 10 is hard. Not a warm-up band.\n2. **Prone or bench external rotation with a dumbbell at 90°.** 3 × 8 each side. Slow eccentric.\n3. **Bottoms-up kettlebell press or hold.** 3 × 20-30 s each side. Trains reflexive centring better than anything else here, and it scales with load.\n\n**Scapular upward rotation and control — 5 min**\n\n4. **Loaded serratus punch or wall slide with resistance.** 3 × 10.\n5. **Prone lower-trap raise at 120°, weighted.** 3 × 10.\n6. **Scap pull-ups.** 3 × 8, weighted once bodyweight is easy.\n\n**Anti-translation under fatigue — 4 min**\n\n7. **Overhead carry or waiter's walk**, 3 × 30 m each side. The cuff working while everything else is tired is the condition that actually fails on the wall.\n8. **Controlled articular rotations**, 3 slow circles each direction, end range.",
+    "progressionRule": "Add load, not reps. When items 1, 2 and 5 hit the top of the rep range with control, go heavier. This is a strength module now.\n\nWeeks 15-22: maintain rather than progress. Peak block.",
+    "stopRules": "- Pain, as opposed to the painless click. Stop the item, and this becomes an assessment issue rather than a training one.\n- Dead-arm or sudden weakness. Stop everything, get assessed.\n- Clicking that starts appearing in bar or edge work, which has always been clean.\n\nThe painless click in items 1-3 at end range is not a stop rule. It's the thing I'm training.\n\nLinks: [[Shoulder Capacity]] · [[Deep Shoulder Positions]] · [[Weighted Pulls]] · [[One Arm Progression]]"
+  },
+  {
+    "id": "Visualization Protocol",
+    "name": "Visualization Protocol",
+    "folder": "03 Modules",
+    "trains": [
+      "[[Visualization]]",
+      "[[Motor Learning]]"
+    ],
+    "blocks": [
+      "all"
+    ],
+    "frequency": "2x daily, 2 minutes, plus between attempts",
+    "placement": "",
+    "dose": "",
+    "progressionRule": "",
+    "stopRules": ""
+  },
+  {
+    "id": "Fuel and Hydration",
+    "name": "Fuel and Hydration",
+    "folder": "03 Modules",
+    "trains": [
+      "[[Energy]]",
+      "[[Hydration]]"
+    ],
+    "blocks": [
+      "all"
+    ],
+    "frequency": "",
+    "placement": "",
+    "dose": "",
+    "progressionRule": "",
+    "stopRules": ""
+  },
+  {
+    "id": "Simulation Sets",
+    "name": "Simulation Sets",
+    "folder": "03 Modules",
+    "trains": [
+      "[[Beta]]",
+      "[[Power]]",
+      "[[Tension]]"
+    ],
+    "blocks": [
+      3,
+      4
+    ],
+    "frequency": "within limit bouldering sessions",
+    "placement": "",
+    "dose": "- Rotate through the set inside [[Limit Bouldering]] sessions in Blocks 3 and 4.\n- Two sims per session, not all five. Same attempt budget and same [[Attempt Discipline]] rules — the sims don't get their own extra attempts.\n- Rebuild any sim that becomes easy. A sim I can do is no longer a sim.",
+    "progressionRule": "",
+    "stopRules": ""
+  },
+  {
+    "id": "Repeaters",
+    "name": "Repeaters",
+    "folder": "03 Modules",
+    "trains": [
+      "[[Critical Force]]",
+      "[[Tendon Health]]"
+    ],
+    "blocks": [
+      1
+    ],
+    "frequency": "",
+    "placement": "after climbing, low intensity",
+    "dose": "López's IntHangs notation: `3-4 x 4-5 x MED IntHangs x 7\"-10\" :20\"/2'`\n\n- 3-4 sets of 4-5 reps.\n- 7-10 s hangs, 20 s between reps, 2 min between sets.\n- Edge chosen so I reach failure on the last rep of the last set, not before.\n- Half crimp, 20 mm or larger.\n- Once weekly in [[Block 1 — Base]] only, weeks 1-5.\n\nNo margin here, unlike [[Max Hangs]]. IntHangs are designed to reach failure at the end. Failing too early or not at all produces a different effect than intended, so I adjust edge or weight between sets to land it.",
+    "progressionRule": "",
+    "stopRules": "- Finger pain as opposed to fatigue. Fatigue burns and spreads. Pain is sharp and local.\n- If this compromises [[Max Hangs]] two days later, cut it. Lowest-priority finger work in the plan.\n\nLinks: [[Critical Force]] · [[Max Hangs]] · [[Tendon Health]] · [[Readiness Monitoring]]"
+  },
+  {
+    "id": "Deadpoint Power",
+    "name": "Deadpoint Power",
+    "folder": "03 Modules",
+    "trains": [
+      "[[Rate of Force Development]]",
+      "[[Contact Strength]]"
+    ],
+    "blocks": [
+      3,
+      4
+    ],
+    "frequency": "",
+    "placement": "after warm-up, before limit bouldering",
+    "dose": "- 4-6 movement patterns, 3-4 reps each.\n- 90 s between reps, 3 min between patterns.\n- Maximum intent every rep. This is [[Rate of Force Development]] work and it dies at 90% effort.\n- Twice weekly in [[Block 3 — Power and RFD]].\n- 25-35 min.",
+    "progressionRule": "1. **Bumps.** Hand to hold, immediately to the next, no settling. Two-hand contact throughout. Safest, start here.\n2. **Deadpoints on incuts.** Move to a hold at the top of the arc, momentarily weightless. Soft catch. Both feet on.\n3. **Deadpoints on flat edges.** Harder catch.\n4. **Foot-cut deadpoints.** Feet come off on the catch.\n5. **Double-hand bumps.** Both hands move.\n6. **Full dynos.** Block 3 onward.",
+    "stopRules": "- Shoulder **pain**, as distinct from the painless positional click, which doesn't appear here. Over for the day.\n- Any finger pop, click, or sting. Session over.\n- Landing quality degrading — sloppy catches, uncontrolled swings — means the neural system is fatigued and the exercise is finished regardless of reps remaining.\n\nLinks: [[Rate of Force Development]] · [[Contact Strength]] · [[Power]] · [[Shoulder Protocol]]"
+  },
+  {
+    "id": "Conditions Forecasting",
+    "name": "Conditions Forecasting",
+    "folder": "03 Modules",
+    "trains": [
+      "[[Temperature]]",
+      "[[Humidity]]",
+      "[[Wind]]"
+    ],
+    "blocks": [
+      3,
+      4
+    ],
+    "frequency": "",
+    "placement": "",
+    "dose": "",
+    "progressionRule": "",
+    "stopRules": ""
+  },
+  {
+    "id": "Skin Programme",
+    "name": "Skin Programme",
+    "folder": "03 Modules",
+    "trains": [
+      "[[Skin]]",
+      "[[Calluses]]"
+    ],
+    "blocks": [
+      "all"
+    ],
+    "frequency": "",
+    "placement": "",
+    "dose": "",
+    "progressionRule": "",
+    "stopRules": ""
+  },
+  {
+    "id": "Deep Shoulder Positions",
+    "name": "Deep Shoulder Positions",
+    "folder": "03 Modules",
+    "trains": [
+      "[[Shoulder Capacity]]",
+      "[[Tension]]"
+    ],
+    "blocks": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "frequency": "2x weekly, 15 min",
+    "placement": "",
+    "dose": "Two tracks, alternating sessions, ~15 min each. Both in [[S6 Skill and Pull]] and Monday recovery.\n\nAdvance a track when the target is hit for two consecutive sessions with no more than a faint click and no pain.",
+    "progressionRule": "",
+    "stopRules": "- **Pain.** Not the click — pain. Stop, and get the assessment.\n- Dead-arm or sudden weakness. Stop everything.\n- Click getting louder or appearing at lower loads over consecutive weeks. Regress a stage, and if it doesn't settle in two weeks, get assessed.\n- The click staying the same while load goes up is the outcome I want. Log it."
+  },
+  {
+    "id": "Antagonist and Wrist",
+    "name": "Antagonist and Wrist",
+    "folder": "03 Modules",
+    "trains": [
+      "joint balance",
+      "elbow health"
+    ],
+    "blocks": [
+      "all"
+    ],
+    "frequency": "",
+    "placement": "end of session",
+    "dose": "1. **Wrist extension**, light dumbbell or band. 3 × 15, slow eccentric. Highest-value item here.\n2. **Wrist flexion.** 3 × 15. Both directions, not just the neglected one.\n3. **Pronation and supination** with a hammer or light bar. 2 × 12 each.\n4. **Reverse wrist curls** over a bench edge. 2 × 15.\n5. **Finger extension** against a band around all five digits. 3 × 20.\n6. **Push-ups or dips, 2 × 10.** Pressing balance for all the pulling. Keep dips shallow — no deeper than 90° at the elbow.\n7. **Rice bucket or putty, 2 min.** Optional, pleasant, probably does something.",
+    "progressionRule": "Slowly. Insurance, not a development target. If it makes me sore enough to affect finger sessions, it's too heavy.",
+    "stopRules": ""
+  },
+  {
+    "id": "Beta Lab",
+    "name": "Beta Lab",
+    "folder": "03 Modules",
+    "trains": [
+      "[[Beta]]",
+      "[[Leverage]]",
+      "[[Morphology]]"
+    ],
+    "blocks": [
+      2,
+      3,
+      4
+    ],
+    "frequency": "",
+    "placement": "within project sessions",
+    "dose": "**Session 1 on any new project: no full attempts.**\n\n1. Work the boulder in sections, top down. Learn the moves in isolation.\n2. Per crux, write three sequences before trying any properly. In the note, in words, not memory.\n3. One must assume a body shorter than mine. One must assume more flexibility than I have. Forces me off the default.\n4. Try each at least twice.\n5. Score each: possible / possible on a good day / not possible.\n\n**Then commit.** Choose one and give it three sessions. Don't re-open the question inside those three. Beta-hopping and method-hopping are the same failure and both feel like progress.\n\n**Vector experiments before strength conclusions.** Before concluding a move needs more strength, run five: rotate the hip, drop the shoulder, change which foot is loaded, move a foot two centimetres, change the weighting order. Most \"too hard\" moves were the wrong angle. [[Leverage]].",
+    "progressionRule": "",
+    "stopRules": ""
+  },
+  {
+    "id": "Commitment Reps",
+    "name": "Commitment Reps",
+    "folder": "03 Modules",
+    "trains": [
+      "[[Commitment]]"
+    ],
+    "blocks": [
+      3,
+      4
+    ],
+    "frequency": "",
+    "placement": "within project sessions, when relevant",
+    "dose": "1. **Identify the specific move.** Not \"I'm not committing.\" The exact move, the exact instant I back off.\n2. **Make the consequence trivially safe.** More pads, a spotter, the move lower on the wall, two feet off the ground.\n3. **Execute at full commitment ten times in the safe version.** Ten. Reps of the *go*, not the mechanics.\n4. **Restore one element of consequence.** Fewer pads, or higher, or no spot. Ten more.\n5. **Restore the real version.**",
+    "progressionRule": "",
+    "stopRules": ""
+  },
+  {
+    "id": "Tendon Nutrition Timing",
+    "name": "Tendon Nutrition Timing",
+    "folder": "03 Modules",
+    "trains": [
+      "[[Tendon Health]]"
+    ],
+    "blocks": [
+      "all"
+    ],
+    "frequency": "before every finger session",
+    "placement": "",
+    "dose": "**15 g gelatin or hydrolysed collagen + ~50 mg vitamin C, 30-60 min before loading.**\n\nThen load. The loading does the work; the collagen supplies substrate.",
+    "progressionRule": "",
+    "stopRules": ""
+  },
+  {
+    "id": "Footwork Precision",
+    "name": "Footwork Precision",
+    "folder": "03 Modules",
+    "trains": [
+      "[[Footwork]]",
+      "[[Precision]]"
+    ],
+    "blocks": [
+      "all"
+    ],
+    "frequency": "",
+    "placement": "start of skill sessions, before fatigue",
+    "dose": "",
+    "progressionRule": "- Weeks 1-6: 2-3 grades below limit.\n- Weeks 7-13: 1-2 grades below limit.\n- Weeks 14+: apply the drill *inside* project rehearsal. Silent feet on the crux sequence at 60% speed.\n\nLinks: [[Footwork]] · [[Precision]] · [[Motor Learning]] · [[Shoes]]",
+    "stopRules": ""
+  },
+  {
+    "id": "Grip Specificity Block",
+    "name": "Grip Specificity Block",
+    "folder": "03 Modules",
+    "trains": [
+      "[[Grip Positions]]"
+    ],
+    "blocks": [
+      2,
+      3,
+      4
+    ],
+    "frequency": "",
+    "placement": "after primary finger work",
+    "dose": "- 2-3 sets per position, 7-10 s, 3 min rest.\n- Two positions maximum per session.\n- Once weekly in [[Block 2 — Max Strength]] and [[Block 3 — Power and RFD]], twice in [[Block 4 — Peak and Send]].\n- Selected by the project's actual demands, not a checklist.",
+    "progressionRule": "",
+    "stopRules": ""
+  },
+  {
+    "id": "Limit Bouldering",
+    "name": "Limit Bouldering",
+    "folder": "03 Modules",
+    "trains": [
+      "[[Power]]",
+      "[[Intent]]",
+      "[[Beta]]",
+      "[[Contact Strength]]"
+    ],
+    "blocks": [
+      2,
+      3,
+      4
+    ],
+    "frequency": "",
+    "placement": "first, after warm-up",
+    "dose": "- 2-3 problems, each with one or two moves at my limit.\n- 6-10 total genuine attempts.\n- 3-5 min rest between attempts. Timer, not feel. PCr resynthesis is functionally complete at 3-5 min; at 60 s I'm at 85%, and an 85% attempt is wasted.\n- 45-75 min. Longer means I'm not resting enough or doing too many problems.\n- Twice weekly, Blocks 2 and 3.",
+    "progressionRule": "",
+    "stopRules": "- Three consecutive attempts worse than the session best. Over. [[Attempt Discipline]].\n- Any fingertip hot spot. Over. Skin costs a week and the remaining attempts are low quality anyway.\n- Shoulder **pain** on a move: abandon that beta. A painless click in a thuggy undercling is not a stop — log it on the 0-3 scale from [[Deep Shoulder Positions]] and keep going. Those are the moves I want to make easier.\n- Never after [[Recruitment Pulls]] at full intensity, never after [[Max Hangs]] to a small margin."
+  },
+  {
+    "id": "Shoe and Rubber Selection",
+    "name": "Shoe and Rubber Selection",
+    "folder": "03 Modules",
+    "trains": [
+      "[[Shoes]]",
+      "[[Rubber]]"
+    ],
+    "blocks": [
+      4
+    ],
+    "frequency": "",
+    "placement": "",
+    "dose": "",
+    "progressionRule": "",
+    "stopRules": ""
+  },
+  {
+    "id": "Contact Strength Ladder",
+    "name": "Contact Strength Ladder",
+    "folder": "03 Modules",
+    "trains": [
+      "[[Contact Strength]]",
+      "[[Precision]]"
+    ],
+    "blocks": [
+      2,
+      3
+    ],
+    "frequency": "",
+    "placement": "after warm-up",
+    "dose": "- 3 × 3-5 catches at my current stage.\n- 2 min between sets.\n- Once or twice weekly.\n- 10-15 min. Small module.",
+    "progressionRule": "Advance a stage when I can complete all reps with a clean, silent, controlled catch and no compensatory shoulder bracing. Two clean sessions, then advance. Not on a good day.",
+    "stopRules": "- Any finger pop, click, or sting. Session over, not set over. Pulley injuries happen here.\n- Shoulder pain on the catch: drop back a stage. The painless positional click lives in underclings and cross-body work, not here.\n- Skin: catching on edges is abrasive. Stop before the fingertip goes shiny.\n\nLinks: [[Contact Strength]] · [[Deadpoint Power]] · [[Precision]] · [[Tendon Health]]"
+  },
+  {
+    "id": "Sleep Protocol",
+    "name": "Sleep Protocol",
+    "folder": "03 Modules",
+    "trains": [
+      "[[Sleep]]"
+    ],
+    "blocks": [
+      "all"
+    ],
+    "frequency": "",
+    "placement": "",
+    "dose": "",
+    "progressionRule": "",
+    "stopRules": "1. **Fixed wake time, every day.** Consistency drives the circadian component harder than total duration. Move bedtime, not wake time.\n2. **The night before the night before matters.** Debt on the eve is already priced in. Two good nights beat one, so start two nights out.\n3. **No alcohol in the 48 h before a project day.** Fragments sleep architecture, suppresses REM. Performance decision, not moral.\n4. **Caffeine cutoff eight hours before bed.** Half-life ~5 h. An afternoon coffee costs the night. Given that 3 mg/kg produced no measurable performance benefit in climbers, trading sleep for it is a bad deal. [[Energy]].\n5. **Naps 20-30 min.** Longer risks sleep inertia. Useful on double days, mandatory on trips.\n6. **Dark, cool, no screens for the last 30 min.** Standard, works."
+  },
+  {
+    "id": "Recruitment Pulls",
+    "name": "Recruitment Pulls",
+    "folder": "03 Modules",
+    "trains": [
+      "[[Recruitment]]",
+      "[[Rate of Force Development]]",
+      "[[Intent]]"
+    ],
+    "blocks": [
+      "1 from week 4",
+      2,
+      3,
+      4
+    ],
+    "frequency": "",
+    "placement": "immediately after warm-up, before everything",
+    "dose": "- 5-8 efforts, 3-5 s each.\n- Maximum intent from the first millisecond. Not a ramp.\n- 2-3 min rest.\n- Half crimp on 20 mm for primary sets. Nelson's note: for connective tissue emphasis, move to 25-30 mm afterwards, since larger edges up to ~30 mm permit higher peak vertical force.\n- Twice weekly.",
+    "progressionRule": "Not by load. By measured peak force. Track the session best weekly. Noisy curve, slow trend.",
+    "stopRules": "Stop when peak drops more than 5% below the session best. Two more reps past that trains fatigue tolerance, not recruitment. Some sessions that's rep four. Take it."
+  }
+]

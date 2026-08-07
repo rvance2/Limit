@@ -1,0 +1,83 @@
+{
+  "twoArm7sHang": {
+    "edge": "20 mm",
+    "unit": "%BW",
+    "note": "Interpolated values assume ~6 percentage points per grade between the published anchors (V4, V7, V11): inference, not measurement.",
+    "rows": [
+      {"grade": "V4", "percentBW": 128, "provenance": "published", "source": "Lattice, published"},
+      {"grade": "V5", "percentBW": 134, "provenance": "interpolated", "source": "interpolated"},
+      {"grade": "V6", "percentBW": 140, "provenance": "interpolated", "source": "interpolated"},
+      {"grade": "V7", "percentBW": 146, "provenance": "published", "source": "Lattice, published"},
+      {"grade": "V8", "percentBW": 152, "provenance": "interpolated", "source": "interpolated"},
+      {"grade": "V9", "percentBW": 158, "provenance": "interpolated", "source": "interpolated"},
+      {"grade": "V10", "percentBW": 164, "provenance": "interpolated", "source": "interpolated"},
+      {"grade": "V11", "percentBW": 170, "provenance": "published", "source": "Lattice, published"}
+    ]
+  },
+  "oneArmPull": {
+    "edge": "20 mm",
+    "unit": "%BW",
+    "note": "The circulated V4-V17 one-arm table beyond this range is a blogger's extrapolation, not Lattice data. Only these four rows are published.",
+    "rows": [
+      {"grade": "V14", "percentBW": 106, "provenance": "published", "source": "Lattice, published"},
+      {"grade": "V15", "percentBW": 110, "provenance": "published", "source": "Lattice, published"},
+      {"grade": "V16", "percentBW": 114, "provenance": "published", "source": "Lattice, published"},
+      {"grade": "V17", "percentBW": 118, "provenance": "published", "source": "Lattice, published"}
+    ]
+  },
+  "oneArmLockOff": {
+    "unit": "s",
+    "note": "No published norms exist. These are programme targets from One Arm Progression, not population data. Compare against my own previous number per side, and watch the asymmetry.",
+    "rows": [
+      {"grade": "Full lock, assisted", "percentBW": 8, "provenance": "target", "source": "programme target"},
+      {"grade": "Full lock, unassisted", "percentBW": 10, "provenance": "target", "source": "programme target"},
+      {"grade": "90° elbow", "percentBW": 8, "provenance": "target", "source": "programme target"},
+      {"grade": "120° elbow", "percentBW": 5, "provenance": "target", "source": "programme target"}
+    ]
+  },
+  "conditions": {
+    "unit": "dewPointC",
+    "rows": [
+      {"verdict": "Excellent", "range": [-100, 0]},
+      {"verdict": "Very good", "range": [0, 5]},
+      {"verdict": "Good", "range": [5, 10]},
+      {"verdict": "Marginal, brush constantly", "range": [10, 15]},
+      {"verdict": "Poor, different objective", "range": [15, 100]}
+    ],
+    "rockTempMustExceedDewPoint": true,
+    "spreadRules": {
+      "dryingAboveC": 10,
+      "nearCondensingBelowC": 3
+    },
+    "goNoGo": {
+      "inputs": ["dewPoint", "rockTempAndAspect", "wind", "skinScore", "readinessVerdict"],
+      "badThreshold": 3,
+      "totalInputs": 5,
+      "note": "Three of five bad recommends training instead. Presented as a recommendation with the inputs shown, not a verdict."
+    }
+  },
+  "readinessRuleFlags": {
+    "flags": [
+      {"id": "hrv_drop", "description": "HRV more than ~10% below rolling 14-day baseline", "requiresDays": 7},
+      {"id": "sleep_under_7", "description": "Sleep under 7 hours"},
+      {"id": "rhr_up_5", "description": "Resting HR up more than 5 bpm above baseline"},
+      {"id": "motivation_flat", "description": "Motivation flat (≤2 of 5)"},
+      {"id": "finger_stiff", "description": "Any finger stiff on waking"}
+    ],
+    "verdicts": [
+      {"flagRange": [0, 1], "verdict": "As prescribed"},
+      {"flagRange": [2, 2], "verdict": "Downgrade: keep the session, cut top-end intensity 10-15%, drop the last set of everything"},
+      {"flagRange": [3, 3], "verdict": "Skill and mobility only: Movement Efficiency Drills, Footwork Precision, Hip and Ankle Mobility"},
+      {"flagRange": [4, 5], "verdict": "Rest: Visualization Protocol and Shoulder Protocol only"}
+    ],
+    "degradedNoHRV": {
+      "scale": 4,
+      "verdicts": [
+        {"flagRange": [0, 1], "verdict": "As prescribed"},
+        {"flagRange": [2, 2], "verdict": "Downgrade: keep the session, cut top-end intensity 10-15%, drop the last set of everything"},
+        {"flagRange": [3, 3], "verdict": "Skill and mobility only: Movement Efficiency Drills, Footwork Precision, Hip and Ankle Mobility"},
+        {"flagRange": [4, 4], "verdict": "Rest: Visualization Protocol and Shoulder Protocol only"}
+      ]
+    }
+  }
+}

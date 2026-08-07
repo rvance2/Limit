@@ -1,0 +1,200 @@
+[
+  {
+    "id": "S1 Finger Priority",
+    "name": "S1 Finger Priority",
+    "day": "Tuesday",
+    "duration": "100 min",
+    "items": [
+      {"order": 1, "name": "Universal warm-up", "moduleId": null, "time": "20 min", "blocks": null, "variation": null, "cuttable": false},
+      {"order": 2, "name": "Recruitment Pulls", "moduleId": "Recruitment Pulls", "time": "15 min", "blocks": [1, 2, 3, 4], "variation": "Blocks 2-4: 5-8 efforts, 3-5 s, max intent, 2-3 min rest. Block 1: starts week 4 only, low volume (4 efforts).", "cuttable": false},
+      {"order": 3, "name": "Primary finger method", "moduleId": null, "time": "25 min", "blocks": null, "variation": "B1: Max Hangs MAW 20mm · B2: MED Hangs · B3: Max Hangs + Grip Specificity Block · B4: Max Hangs 3 sets only", "cuttable": "lastSetOnly"},
+      {"order": 4, "name": "Limit Bouldering", "moduleId": "Limit Bouldering", "time": "25 min", "blocks": [2, 3, 4], "variation": "2 problems, 4-6 attempts, timer on", "cuttable": false},
+      {"order": 5, "name": "Weighted Pulls", "moduleId": "Weighted Pulls", "time": "10 min", "blocks": [1, 2, 3], "variation": null, "cuttable": false},
+      {"order": 6, "name": "Tension Circuit", "moduleId": "Tension Circuit", "time": "15 min", "blocks": null, "variation": "All blocks", "cuttable": true}
+    ],
+    "block1Variation": "No Limit Bouldering. Item 4 becomes Repeaters plus 20 minutes of moderate bouldering. Recruitment Pulls (item 2) still enters from week 4 at low volume. Block 1 is tissue and technique, not force expression, but RFD gets presence across the whole plan rather than one concentrated block.",
+    "preSession": "Tendon Nutrition Timing 60 min before. 15 g gelatin or collagen with vitamin C.",
+    "stopRules": [
+      "Grip position changing mid-hang: that set doesn't count. Two in a row ends the exercise.",
+      "Recruitment Pulls: stop when peak drops 5% below the session best.",
+      "Any finger pop, click, or sting: session over.",
+      "Palpation tenderness over a pulley found during warm-up: 25-30 mm and drop load 30% for the day, then read Tendon Health.",
+      "Shoulder sensation during Weighted Pulls: exercise over for the day."
+    ],
+    "shortOnTimeNote": "Running out of time and doing the finger work last. With 60 minutes: warm-up, three sets of the primary finger method, Tension Circuit, go home. A short session with the priority intact beats a full session with the priority moved to the end."
+  },
+  {
+    "id": "S2 Limit Boulder",
+    "name": "S2 Limit Boulder",
+    "day": "Saturday (indoor alternative)",
+    "duration": "90 min",
+    "items": [
+      {"order": 1, "name": "Universal warm-up, ending with two boulders 3-4 grades below limit", "moduleId": null, "time": "20 min", "blocks": null, "variation": null, "cuttable": false},
+      {"order": 2, "name": "One near-limit boulder as potentiation, if it's a good day", "moduleId": null, "time": "5 min", "blocks": null, "variation": null, "cuttable": true},
+      {"order": 3, "name": "Limit Bouldering problem A", "moduleId": "Limit Bouldering", "time": "20 min", "blocks": null, "variation": "3-4 attempts, 4 min rests", "cuttable": false},
+      {"order": 4, "name": "Limit Bouldering problem B", "moduleId": "Limit Bouldering", "time": "20 min", "blocks": null, "variation": "3-4 attempts, 4 min rests", "cuttable": false},
+      {"order": 5, "name": "Optional problem C, only if attempt quality is holding", "moduleId": null, "time": "15 min", "blocks": null, "variation": null, "cuttable": true},
+      {"order": 6, "name": "Antagonist and Wrist", "moduleId": "Antagonist and Wrist", "time": "8 min", "blocks": null, "variation": null, "cuttable": true}
+    ],
+    "block1Variation": null,
+    "preSession": "Never on the same day as Recruitment Pulls at full intensity.",
+    "stopRules": [
+      "Three consecutive attempts worse than the session best. Over, whatever the clock says.",
+      "Any fingertip hot spot. Over. Skin costs a week and the remaining attempts are low quality.",
+      "Any move that makes me think about my shoulder gets abandoned, not repeated."
+    ],
+    "shortOnTimeNote": null
+  },
+  {
+    "id": "S3 Power and Contact",
+    "name": "S3 Power and Contact",
+    "day": "Friday",
+    "duration": "80 min",
+    "items": [
+      {"order": 1, "name": "Universal warm-up", "moduleId": null, "time": "20 min", "blocks": null, "variation": "all", "cuttable": false},
+      {"order": 2, "name": "Recruitment Pulls", "moduleId": "Recruitment Pulls", "time": "12 min", "blocks": [2, 3, 4], "variation": null, "cuttable": false},
+      {"order": 3, "name": "Deadpoint Power", "moduleId": "Deadpoint Power", "time": "30 min", "blocks": [3, 4], "variation": null, "cuttable": false},
+      {"order": 4, "name": "Contact Strength Ladder", "moduleId": "Contact Strength Ladder", "time": "12 min", "blocks": [2, 3], "variation": null, "cuttable": true},
+      {"order": 5, "name": "Lower Limb Resilience", "moduleId": "Lower Limb Resilience", "time": "8 min", "blocks": null, "variation": "all", "cuttable": true},
+      {"order": 6, "name": "Shoulder Protocol", "moduleId": "Shoulder Protocol", "time": "12 min", "blocks": null, "variation": "all", "cuttable": false}
+    ],
+    "block1Variation": "Becomes a second S4 Volume and Skill with Contact Strength Ladder stage 2 added.",
+    "preSession": null,
+    "stopRules": [
+      "Catch quality degrading (sloppy landings, uncontrolled swing) means the nervous system is done. Over regardless of reps remaining.",
+      "Recruitment Pulls: peak 5% below session best.",
+      "Shoulder pain: exercise over for the day. The painless positional click doesn't appear in catch work.",
+      "Any finger pop, click, or sting: session over.",
+      "Two flags on Readiness Monitoring this morning: this is the session to cut, because it's 24 hours before Saturday."
+    ],
+    "shortOnTimeNote": null
+  },
+  {
+    "id": "S4 Volume and Skill",
+    "name": "S4 Volume and Skill",
+    "day": "Wednesday (Block 1 and reduced weeks)",
+    "duration": "90 min",
+    "items": [
+      {"order": 1, "name": "Universal warm-up", "moduleId": null, "time": "15 min", "blocks": null, "variation": null, "cuttable": false},
+      {"order": 2, "name": "Footwork Precision: two drills, drawn at random", "moduleId": "Footwork Precision", "time": "12 min", "blocks": null, "variation": null, "cuttable": true},
+      {"order": 3, "name": "Style Roulette", "moduleId": "Style Roulette", "time": "40 min", "blocks": null, "variation": null, "cuttable": true},
+      {"order": 4, "name": "Movement Efficiency Drills: one drill", "moduleId": "Movement Efficiency Drills", "time": "10 min", "blocks": null, "variation": null, "cuttable": true},
+      {"order": 5, "name": "Antagonist and Wrist", "moduleId": "Antagonist and Wrist", "time": "8 min", "blocks": null, "variation": null, "cuttable": true},
+      {"order": 6, "name": "Hip and Ankle Mobility", "moduleId": "Hip and Ankle Mobility", "time": "12 min", "blocks": null, "variation": null, "cuttable": false}
+    ],
+    "block1Variation": null,
+    "preSession": null,
+    "stopRules": [
+      "Skin: if Tuesday left me at 2/5 on the Skin Programme scale, do mobility and drills and skip the volume climbing. Skin is the binding constraint on Saturday and Wednesday isn't worth spending it on.",
+      "Any finger stiffness on waking: replace item 3 with an extra 20 minutes of items 4-6."
+    ],
+    "shortOnTimeNote": null,
+    "intensityCeiling": "Nothing above two grades below my limit. If I'm trying hard, the session has become something else and Tuesday will suffer.",
+    "filming": "One boulder per session, side-on. Trace the hip path that evening."
+  },
+  {
+    "id": "S5 Outdoor Project Day",
+    "name": "S5 Outdoor Project Day",
+    "day": "Saturday",
+    "duration": "3-5 h",
+    "items": [
+      {"order": 1, "name": "Warm up", "moduleId": null, "time": null, "blocks": null, "variation": "The walk in is not the warm-up.", "cuttable": false},
+      {"order": 2, "name": "Brush the crux holds", "moduleId": null, "time": null, "blocks": null, "variation": "Highest-return thing I'll do all day", "cuttable": false},
+      {"order": 3, "name": "Full warm-up: easy traverses, three easy boulders, progressive hangs on a portable edge", "moduleId": null, "time": "25-30 min", "blocks": null, "variation": "Don't skip on a cold day", "cuttable": false},
+      {"order": 4, "name": "Beta Lab if this is session 1 on the boulder", "moduleId": "Beta Lab", "time": null, "blocks": null, "variation": "No full attempts on session 1", "cuttable": true},
+      {"order": 5, "name": "Attempts, timer on, 4-5 min rests", "moduleId": null, "time": null, "blocks": null, "variation": "Attempt Discipline rules apply absolutely", "cuttable": false},
+      {"order": 6, "name": "Visualization Protocol, one real-time rehearsal per real attempt", "moduleId": "Visualization Protocol", "time": null, "blocks": null, "variation": "In position, chalked, not weighting the holds", "cuttable": false},
+      {"order": 7, "name": "Log every attempt", "moduleId": null, "time": null, "blocks": null, "variation": "Ten seconds each", "cuttable": false},
+      {"order": 8, "name": "Stop when the rules say stop", "moduleId": null, "time": null, "blocks": null, "variation": "Not when the light goes", "cuttable": false}
+    ],
+    "block1Variation": null,
+    "preSession": "Conditions Forecasting check: dew point forecast, rock temperature and aspect, wind, go/no-go. Skin Programme assessment (below 3, go anyway but budget fewer attempts). Pack two pairs of shoes, brush, infrared thermometer, fan if humid, frozen bottle if hot. Nine hours in bed (Sleep Protocol). Write the attempt budget down: six to ten genuine, decided now, not at the boulder.",
+    "stopRules": [
+      "Three consecutive declining attempts.",
+      "Any fingertip hot spot. Skin costs a week.",
+      "Any shoulder sensation on a move: abandon that beta, don't repeat it.",
+      "Conditions collapsing: dew point rising into the rock temperature. Go home. A wet hold isn't a strength problem."
+    ],
+    "shortOnTimeNote": null,
+    "attemptDisciplineRules": [
+      "Timer. Three minutes minimum, five on the crux. At 60 seconds I'm at ~85% of phosphagen capacity and an 85% attempt is wasted.",
+      "Fixed attempt budget, written down before the session.",
+      "Stop after three consecutive attempts worse than the day's best.",
+      "Log every attempt: number, highest point, genuine or rehearsal, one clause on the failure mode."
+    ]
+  },
+  {
+    "id": "S6 Skill and Pull",
+    "name": "S6 Skill and Pull",
+    "day": "Wednesday (Blocks 2-4)",
+    "duration": "100 min",
+    "items": [
+      {"order": 1, "name": "Universal warm-up", "moduleId": null, "time": "15 min", "blocks": null, "variation": null, "cuttable": false},
+      {"order": 2, "name": "Footwork Precision: two drills, drawn at random", "moduleId": "Footwork Precision", "time": "12 min", "blocks": null, "variation": null, "cuttable": true},
+      {"order": 3, "name": "Style Roulette: compressed", "moduleId": "Style Roulette", "time": "25 min", "blocks": null, "variation": "Trim to 15 min if short on time.", "cuttable": true},
+      {"order": 4, "name": "Deep Shoulder Positions", "moduleId": "Deep Shoulder Positions", "time": "15 min", "blocks": null, "variation": "One track, alternating sessions: underclings one session, cross-body isolations the next.", "cuttable": false},
+      {"order": 5, "name": "Weighted Pulls: primary sets", "moduleId": "Weighted Pulls", "time": "20 min", "blocks": null, "variation": null, "cuttable": false},
+      {"order": 6, "name": "One Arm Progression: current stage, both sides", "moduleId": "One Arm Progression", "time": "15 min", "blocks": null, "variation": null, "cuttable": false},
+      {"order": 7, "name": "Rows", "moduleId": null, "time": "7 min", "blocks": null, "variation": "3 x 8-10", "cuttable": true},
+      {"order": 8, "name": "Hip and Ankle Mobility", "moduleId": "Hip and Ankle Mobility", "time": "12 min", "blocks": null, "variation": "Trim to Monday if short on time.", "cuttable": true}
+    ],
+    "block1Variation": null,
+    "preSession": null,
+    "stopRules": [
+      "Shoulder pain in any item: that exercise over for the day. The painless click in item 4 is expected and gets logged 0-3, not stopped.",
+      "Click getting louder or appearing at lower loads across consecutive weeks in item 4: regress a stage.",
+      "Asymmetry over 20% between sides in item 6: work the weak side only.",
+      "Medial elbow tenderness: cut item 5 load 20%, double Antagonist and Wrist on Monday.",
+      "Skin at 2/5 from Tuesday: do items 1, 4-8 and skip the wall climbing. Saturday matters more.",
+      "Any finger stiffness on waking: items 4-8 only."
+    ],
+    "shortOnTimeNote": "121 min at the top end. Trim item 3 to 15 min and item 8 to Monday to make ~100.",
+    "intensityCeiling": "Items 2 and 3 stay at or below two grades under my limit. Still a skill day with a strength block attached, not a hard session.",
+    "filming": null
+  },
+  {
+    "id": "Monday Recovery",
+    "name": "Recovery",
+    "day": "Monday",
+    "duration": "45 min",
+    "items": [
+      {"order": 1, "name": "Shoulder Protocol", "moduleId": "Shoulder Protocol", "time": null, "blocks": null, "variation": null, "cuttable": false},
+      {"order": 2, "name": "Deep Shoulder Positions", "moduleId": "Deep Shoulder Positions", "time": null, "blocks": null, "variation": null, "cuttable": false},
+      {"order": 3, "name": "Hip and Ankle Mobility", "moduleId": "Hip and Ankle Mobility", "time": null, "blocks": null, "variation": null, "cuttable": false},
+      {"order": 4, "name": "Antagonist and Wrist", "moduleId": "Antagonist and Wrist", "time": null, "blocks": null, "variation": null, "cuttable": true},
+      {"order": 5, "name": "Visualization Protocol", "moduleId": "Visualization Protocol", "time": null, "blocks": null, "variation": null, "cuttable": false}
+    ],
+    "block1Variation": null,
+    "preSession": null,
+    "stopRules": [],
+    "shortOnTimeNote": null
+  },
+  {
+    "id": "Recovery",
+    "name": "Recovery",
+    "day": "Thursday",
+    "duration": "25 min",
+    "items": [
+      {"order": 1, "name": "Shoulder Protocol", "moduleId": "Shoulder Protocol", "time": null, "blocks": null, "variation": null, "cuttable": false},
+      {"order": 2, "name": "Hip and Ankle Mobility", "moduleId": "Hip and Ankle Mobility", "time": null, "blocks": null, "variation": null, "cuttable": false}
+    ],
+    "block1Variation": null,
+    "preSession": null,
+    "stopRules": [],
+    "shortOnTimeNote": null
+  },
+  {
+    "id": "Off",
+    "name": "Off",
+    "day": "Sunday",
+    "duration": null,
+    "items": [
+      {"order": 1, "name": "Shoulder Protocol", "moduleId": "Shoulder Protocol", "time": null, "blocks": null, "variation": null, "cuttable": false},
+      {"order": 2, "name": "Review in Log Templates", "moduleId": null, "time": null, "blocks": null, "variation": null, "cuttable": true}
+    ],
+    "block1Variation": null,
+    "preSession": null,
+    "stopRules": [],
+    "shortOnTimeNote": null
+  }
+]

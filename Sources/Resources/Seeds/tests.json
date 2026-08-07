@@ -1,0 +1,62 @@
+{
+  "items": [
+    {
+      "id": "7s_max_hang",
+      "name": "7 s two-arm max hang",
+      "unit": "kg",
+      "protocol": "Lattice's protocol: 20 mm edge (18 or 22 acceptable, record which). Half crimp, both arms, thumb off. Elbow 150-180 degrees throughout, no lock-off. Warm up progressively 50% to 90%. Add load each attempt, maximum within 4-8 attempts. More than eight attempts: stop, retry after 24 hours. Grip position change during the hang invalidates that attempt. Last clean attempt is the score. Record total load including bodyweight, kg and % bodyweight."
+    },
+    {
+      "id": "2rm_pull",
+      "name": "2RM weighted pull-up",
+      "unit": "kg",
+      "protocol": "Shoulder-width pronated grip. Full range, bottom to chin over bar, controlled, no lower-body movement. Three minutes between attempts, adding load. Do not test a true 1RM. Estimate it from the 2RM instead, general maximal-singles position, not a shoulder one. Record total load including bodyweight, kg and % bodyweight, plus the estimated 1RM.",
+      "shoulderModification": null,
+      "variants": ["full range"]
+    },
+    {
+      "id": "one_arm_lockoff",
+      "name": "One-arm lock-off hold time",
+      "unit": "s",
+      "protocol": "The record of whether One Arm Progression is working. Three angles: full lock (chin at bar height), 90 degree elbow, 120 degree elbow. Each side separately. Both numbers matter, the difference between them matters more. Scapula set before the clock starts; a hold with a shrugged, protracted shoulder doesn't count. Assisted variants recorded as assisted, with the assistance method noted. Stop the clock at form breakdown, not failure. Record seconds per side per angle, and the asymmetry percentage. Asymmetry over 15% is a stop-progressing signal, not a curiosity."
+    },
+    {
+      "id": "deep_shoulder_capacity",
+      "name": "Deep shoulder position capacity",
+      "unit": null,
+      "protocol": "The record of whether Deep Shoulder Positions is working. Track A: heaviest two-arm undercling hold at 30 s, and single-arm undercling hold time at bodyweight, each side. Track B: cross-body adduction hold time against a fixed band tension, each side, with and without the opposing arm loaded. Record the click score 0-3 at the test load: 0 none, 1 faint, 2 obvious, 3 uncomfortable. The result wanted across 22 weeks is load going up while the click score stays flat or falls."
+    },
+    {
+      "id": "critical_force",
+      "name": "Critical force",
+      "unit": "kg",
+      "requiresLoadCell": true,
+      "protocol": "Fryer and Giles's all-out protocol. Half crimp, 20 mm rung, one hand at a time, into the force sensor. Rhythmic all-out MVCs: 7 s on, 3 s off. Four to five minutes, until output plateaus. Record critical force as mean end-test force in kg, plus the impulse above it. Fatigue marker, not target. A drop of 8%+ from baseline means fatigue is accumulating faster than it's clearing."
+    },
+    {
+      "id": "mobility",
+      "name": "Mobility",
+      "unit": "cm / deg",
+      "protocol": "Box split against a wall, toes and stomach touching, feet moving wider while contact is maintained, upper-body support only for entry and exit. Record heel-to-heel in cm, and heel-to-heel divided by height. Ankle dorsiflexion: knee-to-wall, both sides, toe-to-wall in cm. Hip rotation: 90/90 seated, both directions, degrees or a photo."
+    },
+    {
+      "id": "shoulder_screen",
+      "name": "Shoulder screen",
+      "unit": null,
+      "protocol": "Run Shoulder Protocol at working load, not zero resistance. Note which items lack control and the click score 0-3 per item. Also test both provocative positions deliberately: loaded undercling and cross-body isolation with the opposing arm. Record the load at which the click first appears. That number rising over 22 weeks is the outcome wanted, it means the cuff is controlling more before translation starts."
+    },
+    {
+      "id": "skill_markers",
+      "name": "Skill markers",
+      "unit": null,
+      "protocol": "Benchmark video: three boulders (flash level, solid limit, done-once), side-on, same three each test point or as close as gym resetting allows. Foot slips per session, counted across a whole session. Attempts-to-send on the done-once benchmark, from cold. Hip path traced from the side-on video: total path length vs vertical gain."
+    },
+    {
+      "id": "bodyweight",
+      "name": "Bodyweight",
+      "unit": "kg",
+      "protocol": "Bodyweight only. No skinfolds, no body-fat estimates, deliberately excluded. Anthropometric factors explain a tiny fraction of grade variance and tracking them invites a failure mode the plan avoids."
+    }
+  ],
+  "testWeeks": [0, 12, 22]
+}

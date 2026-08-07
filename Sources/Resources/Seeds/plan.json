@@ -1,0 +1,266 @@
+{
+  "blocks": [
+    {
+      "id": "Block 0",
+      "name": "Baseline Week"
+    },
+    {
+      "id": "Block 1",
+      "name": "Base"
+    },
+    {
+      "id": "Block 2",
+      "name": "Max Strength"
+    },
+    {
+      "id": "Block 3",
+      "name": "Power and RFD"
+    },
+    {
+      "id": "Block 4",
+      "name": "Peak and Send"
+    }
+  ],
+  "weeks": [
+    {
+      "week": 0,
+      "blockID": "Block 0",
+      "kind": "test",
+      "isReduced": false,
+      "fingerPrescription": null
+    },
+    {
+      "week": 1,
+      "blockID": "Block 1",
+      "kind": "training",
+      "isReduced": false,
+      "fingerPrescription": {
+        "notation": "3 x MAW Hangs x 20mm x 10\" (4) :3'",
+        "frequency": "2x/wk",
+        "plainLanguage": "3 sets of max added-weight hangs, 20 mm edge, 10 second hangs, 4 second margin before failure, 3 minute rest."
+      }
+    },
+    {
+      "week": 2,
+      "blockID": "Block 1",
+      "kind": "training",
+      "isReduced": false,
+      "fingerPrescription": {
+        "notation": "3 x MAW Hangs x 20mm x 10\" (4) :3'",
+        "frequency": "2x/wk",
+        "plainLanguage": "3 sets of max added-weight hangs, 20 mm edge, 10 second hangs, 4 second margin before failure, 3 minute rest."
+      }
+    },
+    {
+      "week": 3,
+      "blockID": "Block 1",
+      "kind": "training",
+      "isReduced": false,
+      "fingerPrescription": {
+        "notation": "4 x MAW Hangs x 20mm x 10\" (3) :3'",
+        "frequency": "2x/wk",
+        "plainLanguage": "4 sets of max added-weight hangs, 20 mm edge, 10 second hangs, 3 second margin before failure, 3 minute rest."
+      }
+    },
+    {
+      "week": 4,
+      "blockID": "Block 1",
+      "kind": "training",
+      "isReduced": false,
+      "fingerPrescription": {
+        "notation": "4 x MAW Hangs x 20mm x 10\" (3) :3'",
+        "frequency": "2x/wk",
+        "plainLanguage": "4 sets of max added-weight hangs, 20 mm edge, 10 second hangs, 3 second margin before failure, 3 minute rest.",
+        "note": "Recruitment Pulls starts this week: 4 efforts, 3-5 s, twice weekly, low volume."
+      }
+    },
+    {
+      "week": 5,
+      "blockID": "Block 1",
+      "kind": "training",
+      "isReduced": false,
+      "fingerPrescription": {
+        "notation": "5 x MAW Hangs x 20mm x 10\"-12\" (3) :4'",
+        "frequency": "2x/wk",
+        "plainLanguage": "5 sets of max added-weight hangs, 20 mm edge, 10-12 second hangs, 3 second margin before failure, 4 minute rest."
+      }
+    },
+    {
+      "week": 6,
+      "blockID": "Block 1",
+      "kind": "reduced",
+      "isReduced": true,
+      "fingerPrescription": null
+    },
+    {
+      "week": 7,
+      "blockID": "Block 2",
+      "kind": "training",
+      "isReduced": false,
+      "fingerPrescription": {
+        "notation": "4 x MED Hangs x 8\"-10\" (2) :3'",
+        "frequency": "2x/wk",
+        "plainLanguage": "4 sets of min-edge hangs, 8-10 second hangs, 2 second margin before failure, 3 minute rest."
+      }
+    },
+    {
+      "week": 8,
+      "blockID": "Block 2",
+      "kind": "training",
+      "isReduced": false,
+      "fingerPrescription": {
+        "notation": "4 x MED Hangs x 8\"-10\" (2) :3'",
+        "frequency": "2x/wk",
+        "plainLanguage": "4 sets of min-edge hangs, 8-10 second hangs, 2 second margin before failure, 3 minute rest."
+      }
+    },
+    {
+      "week": 9,
+      "blockID": "Block 2",
+      "kind": "training",
+      "isReduced": false,
+      "fingerPrescription": {
+        "notation": "4-5 x MED Hangs x 8\"-10\" (2) :4'",
+        "frequency": "2-3x/wk",
+        "plainLanguage": "4-5 sets of min-edge hangs, 8-10 second hangs, 2 second margin before failure, 4 minute rest. A third light session if morning stiffness is absent."
+      }
+    },
+    {
+      "week": 10,
+      "blockID": "Block 2",
+      "kind": "training",
+      "isReduced": false,
+      "fingerPrescription": {
+        "notation": "4-5 x MED Hangs x 8\"-10\" (2) :4'",
+        "frequency": "2-3x/wk",
+        "plainLanguage": "4-5 sets of min-edge hangs, 8-10 second hangs, 2 second margin before failure, 4 minute rest. A third light session if morning stiffness is absent."
+      }
+    },
+    {
+      "week": 11,
+      "blockID": "Block 2",
+      "kind": "training",
+      "isReduced": false,
+      "fingerPrescription": {
+        "notation": "4 x MED Hangs x 8\" (1) :4'",
+        "frequency": "2x/wk",
+        "plainLanguage": "4 sets of min-edge hangs, 8 second hangs, 1 second margin before failure, 4 minute rest. Margin pushed down."
+      }
+    },
+    {
+      "week": 12,
+      "blockID": "Block 2",
+      "kind": "test",
+      "isReduced": true,
+      "fingerPrescription": null
+    },
+    {
+      "week": 13,
+      "blockID": "Block 3",
+      "kind": "training",
+      "isReduced": false,
+      "fingerPrescription": {
+        "notation": "Max Hangs maintenance, 3 sets",
+        "frequency": "2x/wk",
+        "plainLanguage": "Max Hangs held at maintenance: 3 sets, twice weekly."
+      }
+    },
+    {
+      "week": 14,
+      "blockID": "Block 3",
+      "kind": "training",
+      "isReduced": false,
+      "fingerPrescription": {
+        "notation": "Max Hangs maintenance, 3 sets",
+        "frequency": "2x/wk",
+        "plainLanguage": "Max Hangs held at maintenance: 3 sets, twice weekly."
+      }
+    },
+    {
+      "week": 15,
+      "blockID": "Block 3",
+      "kind": "training",
+      "isReduced": false,
+      "fingerPrescription": {
+        "notation": "Max Hangs maintenance, 3 sets",
+        "frequency": "2x/wk",
+        "plainLanguage": "Max Hangs held at maintenance: 3 sets, twice weekly."
+      }
+    },
+    {
+      "week": 16,
+      "blockID": "Block 3",
+      "kind": "training",
+      "isReduced": false,
+      "fingerPrescription": {
+        "notation": "Max Hangs maintenance, 3 sets",
+        "frequency": "2x/wk",
+        "plainLanguage": "Max Hangs held at maintenance: 3 sets, twice weekly."
+      }
+    },
+    {
+      "week": 17,
+      "blockID": "Block 3",
+      "kind": "training",
+      "isReduced": false,
+      "fingerPrescription": {
+        "notation": "Max Hangs maintenance, 3 sets",
+        "frequency": "2x/wk",
+        "plainLanguage": "Max Hangs held at maintenance: 3 sets, twice weekly."
+      }
+    },
+    {
+      "week": 18,
+      "blockID": "Block 3",
+      "kind": "training",
+      "isReduced": false,
+      "fingerPrescription": {
+        "notation": "Max Hangs maintenance, 3 sets",
+        "frequency": "2x/wk",
+        "plainLanguage": "Max Hangs held at maintenance: 3 sets, twice weekly."
+      }
+    },
+    {
+      "week": 19,
+      "blockID": "Block 3",
+      "kind": "reduced",
+      "isReduced": true,
+      "fingerPrescription": null
+    },
+    {
+      "week": 20,
+      "blockID": "Block 4",
+      "kind": "taper",
+      "isReduced": false,
+      "fingerPrescription": {
+        "notation": "3 x MAW Hangs x 20mm x 8\" (2) :4'",
+        "frequency": "2x/wk + Grip Specificity 2x",
+        "plainLanguage": "3 sets of max added-weight hangs, 20 mm edge, 8 second hangs, 2 second margin before failure, 4 minute rest, plus two Grip Specificity Block sessions."
+      }
+    },
+    {
+      "week": 21,
+      "blockID": "Block 4",
+      "kind": "taper",
+      "isReduced": false,
+      "fingerPrescription": {
+        "notation": "2-3 x MAW Hangs x 20mm x 8\" (2) :4'",
+        "frequency": "2x/wk",
+        "plainLanguage": "2-3 sets of max added-weight hangs, 20 mm edge, 8 second hangs, 2 second margin before failure, 4 minute rest."
+      }
+    },
+    {
+      "week": 22,
+      "blockID": "Block 4",
+      "kind": "test",
+      "isReduced": false,
+      "fingerPrescription": {
+        "notation": "2 x MAW Hangs",
+        "frequency": "1x, early in week",
+        "plainLanguage": "2 sets of max added-weight hangs, one session only, placed early in the week."
+      }
+    }
+  ],
+  "reducedWeekRule": "Finger volume 60%, intensity 85-90%. No Limit Bouldering, Deadpoint Power, or Contact Strength Ladder. Wednesday reverts to S4 Volume and Skill; One Arm Progression holds at its current stage, no progression attempts; Weighted Pulls at 60% volume. Wall work 2-3 grades below limit, Movement Efficiency Drills as the content. Mon/Thu slots unchanged.",
+  "progressionRule": "+1-2.5 kg when the prescribed duration and margin are hit twice consecutively. Ceiling 5% added load per session. MED edge steps down no more than once per two weeks."
+}
