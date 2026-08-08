@@ -12,11 +12,7 @@ Fifteen minutes, three times a week, all 22 weeks. The job is closing the gap be
 
 **Not medical advice.** I have never had this assessed and should. Nothing here is a diagnosis. But a painless, positional, functionally silent click does not justify pausing training while I wait for an appointment.
 
-## What changed from version one
-
-The first version was generic anterior-instability rehab — 2 × 15 with a band, avoid the provocative positions, six-week gates. Wrong pattern, wrong dose, wrong strategy. The cuff doesn't get stronger from fifteen easy reps when the lats it has to keep up with can do 23 pull-ups.
-
-This version loads.
+Real load, not a band routine — the cuff doesn't get stronger from fifteen easy reps when the lats it has to keep up with can do 23 pull-ups.
 
 ## The session, 15 minutes
 

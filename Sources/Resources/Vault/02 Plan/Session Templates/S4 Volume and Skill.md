@@ -1,6 +1,6 @@
 ---
 tags: [plan, session]
-day: Wednesday (Block 1 and reduced weeks)
+day: Tuesday (Block 1 and reduced weeks)
 duration: 90 min
 ---
 
@@ -8,7 +8,7 @@ duration: 90 min
 
 Low intensity by design. The learning session, and learning sessions done tired teach sloppy movement.
 
-From Block 2 this is replaced on Wednesdays by [[S6 Skill and Pull]]. S4 stays as the Block 1 version and the reduced-week version, where the full 40 minutes of [[Style Roulette]] and the [[Movement Efficiency Drills]] slot come back.
+From Block 2 this is replaced on Tuesdays by [[S6 Skill and Pull]]. S4 stays as the Block 1 version and the reduced-week version, where the full 40 minutes of [[Style Roulette]] and the [[Movement Efficiency Drills]] slot come back.
 
 ## Order
 
@@ -23,9 +23,9 @@ From Block 2 this is replaced on Wednesdays by [[S6 Skill and Pull]]. S4 stays a
 
 ## Intensity ceiling
 
-Nothing above two grades below my limit. If I'm trying hard, the session has become something else and Tuesday will suffer.
+Nothing above two grades below my limit. If I'm trying hard, the session has become something else and Monday will suffer.
 
-The temptation to try a hard boulder on a Wednesday because I feel good is the single most common way this plan degrades. Feeling good on Wednesday is the plan working.
+The temptation to try a hard boulder on a Tuesday because I feel good is the single most common way this plan degrades. Feeling good on Tuesday is the plan working.
 
 ## Why random rather than blocked
 
@@ -41,7 +41,7 @@ One boulder per session, side-on. Trace the hip path that evening. Cheapest skil
 
 Almost none — intensity is low. Two:
 
-- Skin: if Tuesday left me at 2/5 on the [[Skin Programme]] scale, do mobility and drills and skip the volume climbing. Skin is the binding constraint on Saturday and Wednesday isn't worth spending it on.
+- Skin: if Monday left me at 2/5 on the [[Skin Programme]] scale, do mobility and drills and skip the volume climbing. Skin is the binding constraint on Friday and Tuesday isn't worth spending it on.
 - Any finger stiffness on waking: replace item 3 with an extra 20 minutes of items 4-6.
 
 Links: [[Style Roulette]] · [[Footwork Precision]] · [[Motor Learning]] · [[Movement Efficiency Drills]]

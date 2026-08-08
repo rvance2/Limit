@@ -5,6 +5,7 @@ import ActivityKit
 @main
 struct LimitWidgetBundle: WidgetBundle {
     var body: some Widget {
+        TodaySessionWidget()
         RestTimerLiveActivity()
     }
 }

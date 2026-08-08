@@ -49,8 +49,8 @@ Book an assessment. Painless clicking is common and often benign, and I'm not in
 
 Those are the red flags. The clicking on its own is not one.
 
-## What I got wrong before
+## Prior restrictions, removed
 
-The first version of this plan assumed anterior instability and built restrictions on top: bottom-of-range limits on pull-ups, a 2:1 row ratio, a six-week gate on unilateral work, a 90% load cap, dynos excluded. All of that was an inference from two words, and the inference was wrong. It's removed. [[Constraints MOC]] has the current list, which is much shorter and points at my actual positions.
+Earlier drafts assumed anterior instability and restricted accordingly: bottom-of-range pull-up limits, a 2:1 row ratio, a six-week gate on unilateral work, a 90% load cap, dynos excluded. That diagnosis doesn't match this presentation, so those restrictions are gone. [[Constraints MOC]] has the current, much shorter list.
 
 Links: [[Shoulder Protocol]] · [[Deep Shoulder Positions]] · [[One Arm Progression]] · [[Pulling Strength]] · [[Constraints MOC]]

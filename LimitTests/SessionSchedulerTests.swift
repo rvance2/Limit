@@ -3,56 +3,57 @@ import XCTest
 
 final class SessionSchedulerTests: XCTestCase {
 
-    func test_weekdayMapping_mondayThroughFriday() {
-        // Week 5 is inside Block 1 (weeks 1-5), so Wednesday is still S4.
-        XCTAssertEqual(SessionScheduler.sessionTemplateId(forWeekday: 2, weekNumber: 5), "Monday Recovery") // Mon
-        XCTAssertEqual(SessionScheduler.sessionTemplateId(forWeekday: 3, weekNumber: 5), "S1 Finger Priority") // Tue
-        XCTAssertEqual(SessionScheduler.sessionTemplateId(forWeekday: 4, weekNumber: 5), "S4 Volume and Skill") // Wed
-        XCTAssertEqual(SessionScheduler.sessionTemplateId(forWeekday: 5, weekNumber: 5), "Recovery") // Thu
-        XCTAssertEqual(SessionScheduler.sessionTemplateId(forWeekday: 6, weekNumber: 5), "S3 Power and Contact") // Fri
+    func test_weekdayMapping_mondayThroughSunday() {
+        // Week 5 is inside Block 1 (weeks 1-5), so Tuesday is still S4.
+        XCTAssertEqual(SessionScheduler.sessionTemplateId(forWeekday: 2, weekNumber: 5), "S1 Finger Priority") // Mon
+        XCTAssertEqual(SessionScheduler.sessionTemplateId(forWeekday: 3, weekNumber: 5), "S4 Volume and Skill") // Tue
+        XCTAssertEqual(SessionScheduler.sessionTemplateId(forWeekday: 4, weekNumber: 5), "Recovery") // Wed
+        XCTAssertEqual(SessionScheduler.sessionTemplateId(forWeekday: 5, weekNumber: 5), "S3 Power and Contact") // Thu
+        XCTAssertEqual(SessionScheduler.sessionTemplateId(forWeekday: 6, weekNumber: 5), "S2 Limit Boulder") // Fri
+        XCTAssertEqual(SessionScheduler.sessionTemplateId(forWeekday: 7, weekNumber: 5), "Weekly Recovery") // Sat
         XCTAssertEqual(SessionScheduler.sessionTemplateId(forWeekday: 1, weekNumber: 5), "Off") // Sun
     }
 
-    /// Week Template: "From Block 2 this is replaced on Wednesdays by S6 Skill and Pull. S4
+    /// Week Template: "From Block 2 this is replaced on Tuesdays by S6 Skill and Pull. S4
     /// stays as the Block 1 version and the reduced-week version." Reduced weeks are 6, 12, 19.
-    func test_wednesday_isS4DuringBlock1AndReducedWeeks() {
+    func test_tuesday_isS4DuringBlock1AndReducedWeeks() {
         for week in [0, 1, 5, 6, 12, 19] {
             XCTAssertEqual(
-                SessionScheduler.sessionTemplateId(forWeekday: 4, weekNumber: week),
+                SessionScheduler.sessionTemplateId(forWeekday: 3, weekNumber: week),
                 "S4 Volume and Skill",
-                "week \(week) Wednesday should be S4"
+                "week \(week) Tuesday should be S4"
             )
         }
     }
 
-    func test_wednesday_isS6DuringBlocks2Through4ExceptReducedWeeks() {
+    func test_tuesday_isS6DuringBlocks2Through4ExceptReducedWeeks() {
         for week in [7, 8, 11, 13, 15, 18, 20, 22] {
             XCTAssertEqual(
-                SessionScheduler.sessionTemplateId(forWeekday: 4, weekNumber: week),
+                SessionScheduler.sessionTemplateId(forWeekday: 3, weekNumber: week),
                 "S6 Skill and Pull",
-                "week \(week) Wednesday should be S6"
+                "week \(week) Tuesday should be S6"
             )
         }
     }
 
-    /// Plan MOC: "outdoor projecting from week 13." Saturday (weekday 7) must default to
+    /// Plan MOC: "outdoor projecting from week 13." Friday (weekday 6) must default to
     /// S2 before week 13 and S5 from week 13 on — not the same template every week.
-    func test_saturday_defaultsToS2LimitBoulderBeforeWeek13() {
+    func test_friday_defaultsToS2LimitBoulderBeforeWeek13() {
         for week in [0, 1, 7, 12] {
             XCTAssertEqual(
-                SessionScheduler.sessionTemplateId(forWeekday: 7, weekNumber: week),
+                SessionScheduler.sessionTemplateId(forWeekday: 6, weekNumber: week),
                 "S2 Limit Boulder",
-                "week \(week) Saturday should default to indoor S2"
+                "week \(week) Friday should default to indoor S2"
             )
         }
     }
 
-    func test_saturday_defaultsToS5OutdoorProjectDayFromWeek13() {
+    func test_friday_defaultsToS5OutdoorProjectDayFromWeek13() {
         for week in [13, 15, 18, 22] {
             XCTAssertEqual(
-                SessionScheduler.sessionTemplateId(forWeekday: 7, weekNumber: week),
+                SessionScheduler.sessionTemplateId(forWeekday: 6, weekNumber: week),
                 "S5 Outdoor Project Day",
-                "week \(week) Saturday should default to outdoor S5"
+                "week \(week) Friday should default to outdoor S5"
             )
         }
     }

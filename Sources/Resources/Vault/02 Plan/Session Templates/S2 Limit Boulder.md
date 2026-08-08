@@ -1,12 +1,12 @@
 ---
 tags: [plan, session]
-day: Saturday (indoor alternative)
+day: Friday (indoor alternative)
 duration: 90 min
 ---
 
 # S2 Limit Boulder
 
-Saturday when the weather, my skin, or my schedule rules out [[S5 Outdoor Project Day]]. Indoor, deliberately narrow.
+Friday when the weather, my skin, or my schedule rules out [[S5 Outdoor Project Day]]. Indoor, deliberately narrow.
 
 ## Order
 

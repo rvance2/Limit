@@ -72,7 +72,7 @@ Thirty-four trainable units. Each names a dose, a progression rule, a stop rule.
 
 [[Deload]] is a plan structure rather than a module and lives in [[Recovery MOC]].
 
-No module is gated. Version one gated [[One Arm Progression]] behind six symptom-free weeks and physio clearance, on an assumed anterior instability that turned out not to match how my shoulder behaves. [[Shoulder Capacity]] has the correction.
+No module is gated. [[Shoulder Capacity]] has the reasoning.
 
 ## Notation
 

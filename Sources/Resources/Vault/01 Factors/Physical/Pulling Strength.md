@@ -27,7 +27,7 @@ At V13+ it explains under 1% and fails significance. At my level ~12%.
 
 My own "sort of weak" self-assessment is probably relative to my one-arm goals rather than to the population. Worth knowing which.
 
-**Goal B: one-arm pull-up and a long one-arm lock-off.** This is not a climbing performance goal. Plenty of climbers operating well above my grade cannot do a one-arm pull-up. If my V-grade doesn't move because I spent Wednesday hours here, that's the trade I chose, not a surprise.
+**Goal B: one-arm pull-up and a long one-arm lock-off.** This is not a climbing performance goal. Plenty of climbers operating well above my grade cannot do a one-arm pull-up. If my V-grade doesn't move because I spent Tuesday hours here, that's the trade I chose, not a surprise.
 
 I want it anyway. Fine. But the note says it plainly so I can't later be confused about why.
 

@@ -60,8 +60,8 @@ Advance when the target is hit **on both sides** across two consecutive sessions
 - Asymmetry over 20% in hold time between sides: work the weak side only until it closes.
 - Clicking appearing on bar work, which has always been clean. That's a change in pattern and worth an assessment.
 
-## What is no longer here
+## No gate
 
-The first version gated this module behind six symptom-free weeks of [[Shoulder Protocol]] plus physio clearance, and started it at stage 0. Both were built on an assumed anterior instability that doesn't match how my shoulder actually behaves — bars and edges have never been a problem. Gate removed. [[Shoulder Capacity]] has the correction.
+No symptom-free waiting period, no physio clearance requirement, entry isn't stage 0. [[Shoulder Capacity]] has the reasoning.
 
 Links: [[Pulling Strength]] · [[Weighted Pulls]] · [[Shoulder Capacity]] · [[Deep Shoulder Positions]] · [[S6 Skill and Pull]]

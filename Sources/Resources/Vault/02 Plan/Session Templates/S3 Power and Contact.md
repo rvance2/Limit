@@ -31,11 +31,9 @@ Two maximal efforts beat six nearly maximal ones. If I can't tell the difference
 
 Two dedicated power sessions a week, not four. The campus board trial found four weekly sessions built RFD and maximal force while two built bouldering performance and moves-to-failure, at matched volume. The frequency that built the quality wasn't the frequency that built the performance. Four sessions of explosive work leaves me unable to climb well, and climbing well is what makes me better at climbing.
 
-## On the shoulder
+## Progression logic
 
-Version one banned dynos and one-arm catches here and required both feet on until week 14. All of it came from an assumed anterior instability that doesn't match my presentation — bars and edges have never been a problem. Removed. [[Shoulder Capacity]].
-
-Progression through [[Deadpoint Power]] stages is now general load management: advance on clean landings, not on a calendar.
+No shoulder-based restrictions on dynos or one-arm catches — bars and edges have never been a problem. [[Shoulder Capacity]]. Progression through [[Deadpoint Power]] stages is general load management: advance on clean landings, not on a calendar.
 
 ## Stop rules
 
@@ -43,6 +41,6 @@ Progression through [[Deadpoint Power]] stages is now general load management: a
 - [[Recruitment Pulls]]: peak 5% below session best.
 - Shoulder pain: exercise over for the day. The painless positional click doesn't appear in catch work.
 - Any finger pop, click, or sting: session over.
-- Two flags on [[Readiness Monitoring]] this morning: this is the session to cut, because it's 24 hours before Saturday.
+- Two flags on [[Readiness Monitoring]] this morning: this is the session to cut, because it's 24 hours before Friday.
 
 Links: [[Deadpoint Power]] · [[Recruitment Pulls]] · [[Contact Strength Ladder]] · [[Shoulder Protocol]]

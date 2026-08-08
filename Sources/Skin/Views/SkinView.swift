@@ -63,7 +63,7 @@ struct SkinView: View {
                         .buttonStyle(.borderedProminent)
                 }
 
-                Section("Schedule (Saturday project day)") {
+                Section("Schedule (Friday project day)") {
                     ForEach(SkinScheduleDay.allCases) { day in
                         VStack(alignment: .leading, spacing: 2) {
                             Text(day.rawValue).font(.subheadline.weight(.semibold))
@@ -71,7 +71,7 @@ struct SkinView: View {
                         }
                         .padding(.vertical, 2)
                     }
-                    Text("Escalate only if Friday reads still sweaty.")
+                    Text("Escalate only if Thursday reads still sweaty.")
                         .font(.caption.weight(.semibold))
                 }
 

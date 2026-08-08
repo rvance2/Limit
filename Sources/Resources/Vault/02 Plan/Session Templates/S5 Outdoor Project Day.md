@@ -1,6 +1,6 @@
 ---
 tags: [plan, session]
-day: Saturday
+day: Friday
 duration: 3-5 h
 blocks: [3, 4]
 ---

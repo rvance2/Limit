@@ -9,19 +9,23 @@ placement: after warm-up
 
 Graded progression from static holding to explosive catching. Drolet's spectrum, top end trimmed for my shoulder.
 
+## Entry point
+
+**Stage 5.** Stages 1-4 are a single warm-up progression, not weeks of separate work — dropping and catching on jugs with both feet on isn't a limiting skill at V10. First session covers stages 1-4 in the warm-up, then starts stage 5 cold.
+
 ## The ladder
 
 | Stage | Exercise | Introduce |
 | --- | --- | --- |
-| 1 | Static hang, hand pre-placed | Block 1 (this is [[Max Hangs]]) |
-| 2 | Slow re-grip: place, adjust, load, hold 5 s | Week 3 |
-| 3 | Controlled bumps between adjacent holds, two-hand contact | Week 8 |
-| 4 | Drop and catch on jugs, both feet on | Week 10 |
-| 5 | Drop and catch on 25 mm edges, both feet on | Week 12 |
-| 6 | Deadpoint where the catch is the crux, on the wall | Week 14, [[Deadpoint Power]] |
-| 7 | Full dyno | Block 3 |
+| 1 | Static hang, hand pre-placed | Entry, warm-up only (this is [[Max Hangs]]) |
+| 2 | Slow re-grip: place, adjust, load, hold 5 s | Entry, warm-up only |
+| 3 | Controlled bumps between adjacent holds, two-hand contact | Entry, warm-up only |
+| 4 | Drop and catch on jugs, both feet on | Entry, warm-up only |
+| 5 | Drop and catch on 25 mm edges, both feet on | Entry ← starting stage |
+| 6 | Deadpoint where the catch is the crux, on the wall | Week 12, [[Deadpoint Power]] |
+| 7 | Full dyno | Week 14 |
 
-Stage 7 was excluded in version one on shoulder grounds, based on an assumed anterior instability that doesn't match how my shoulder behaves. See [[Shoulder Capacity]]. Restored, positioned late because it's the highest-impulse movement here and fingers are the tissue at risk.
+Stage 7 has no shoulder-based restriction — see [[Shoulder Capacity]]. Positioned late because it's the highest-impulse movement here and fingers are the tissue at risk.
 
 ## Dose
 

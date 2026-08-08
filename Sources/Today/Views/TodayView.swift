@@ -8,6 +8,7 @@ struct TodayView: View {
     
     @State private var showingSurvey = false
     @State private var showingSessionRunner = false
+    @State private var showingSettings = false
     
     var appState: AppState? { appStates.first }
     
@@ -32,7 +33,14 @@ struct TodayView: View {
     var sessionTemplateIdForToday: String {
         SessionScheduler.sessionTemplateId(forWeekday: Calendar.current.component(.weekday, from: .now), weekNumber: currentWeek)
     }
-    
+
+    private let nonNegotiables: [(label: String, noteTitle: String?)] = [
+        ("Shoulder Protocol", "Shoulder Protocol"),
+        ("Visualization Protocol ×2", "Visualization Protocol"),
+        ("Skin Programme", "Skin Programme"),
+        ("Tendon Nutrition Timing (60m before)", "Tendon Nutrition Timing"),
+    ]
+
     var body: some View {
         NavigationStack {
             ScrollView {
@@ -53,7 +61,17 @@ struct TodayView: View {
                                     .font(.title3)
                                 Spacer()
                             }
-                            
+
+                            if let session = SeedStore.shared.getSessionTemplate(id: sessionTemplateIdForToday) {
+                                Text(session.name)
+                                    .font(.subheadline.bold())
+                                    .padding(.horizontal, 8)
+                                    .padding(.vertical, 4)
+                                    .background(PlanScheduler.color(forTemplateId: sessionTemplateIdForToday).opacity(0.18))
+                                    .foregroundColor(PlanScheduler.color(forTemplateId: sessionTemplateIdForToday))
+                                    .cornerRadius(6)
+                            }
+
                             if isReducedWeek {
                                 Text("REDUCED WEEK")
                                     .font(.caption.bold())
@@ -109,14 +127,18 @@ struct TodayView: View {
                                     .font(.title3.bold())
                                 
                                 ForEach(session.items) { item in
+                                    let resolvedModuleID = item.moduleId ?? FingerMethodResolver.moduleID(forItemName: item.name, blockNumber: currentBlockNumber)
                                     HStack(alignment: .top) {
                                         Text("•")
-                                        VStack(alignment: .leading) {
-                                            Text(FingerMethodResolver.displayName(itemName: item.name, blockNumber: currentBlockNumber))
-                                            if let time = item.time {
-                                                Text(time)
-                                                    .font(.caption)
-                                                    .foregroundColor(.secondary)
+                                        VaultLinkedRow(noteTitle: resolvedModuleID) {
+                                            VStack(alignment: .leading) {
+                                                Text(FingerMethodResolver.displayName(itemName: item.name, blockNumber: currentBlockNumber))
+                                                    .foregroundStyle(.primary)
+                                                if let time = item.time {
+                                                    Text(time)
+                                                        .font(.caption)
+                                                        .foregroundColor(.secondary)
+                                                }
                                             }
                                         }
                                     }
@@ -175,10 +197,14 @@ struct TodayView: View {
                             .font(.headline)
 
                         VStack(alignment: .leading, spacing: 4) {
-                            Text("• Shoulder Protocol")
-                            Text("• Visualization Protocol ×2")
-                            Text("• Skin Programme")
-                            Text("• Tendon Nutrition Timing (60m before)")
+                            ForEach(nonNegotiables, id: \.label) { item in
+                                HStack(alignment: .top) {
+                                    Text("•")
+                                    VaultLinkedRow(noteTitle: item.noteTitle) {
+                                        Text(item.label).foregroundStyle(.primary)
+                                    }
+                                }
+                            }
                         }
                         .font(.subheadline)
                         .padding()
@@ -220,9 +246,24 @@ struct TodayView: View {
                 .padding(.vertical)
             }
             .navigationTitle("Limit")
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button(action: { showingSettings = true }) {
+                        Image(systemName: "gearshape")
+                    }
+                }
+            }
+            .navigationDestination(for: Note.self) { note in
+                NoteView(note: note, manager: StopRuleText.vaultManager)
+            }
             .sheet(isPresented: $showingSurvey) {
                 MorningSurveyView {
                     // refresh if needed
+                }
+            }
+            .sheet(isPresented: $showingSettings) {
+                if let appState {
+                    SettingsView(appState: appState)
                 }
             }
             .fullScreenCover(isPresented: $showingSessionRunner) {

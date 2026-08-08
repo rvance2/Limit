@@ -13,23 +13,28 @@ enum SessionScheduler {
 
     /// weekday: 1=Sun, 2=Mon, 3=Tue, 4=Wed, 5=Thu, 6=Fri, 7=Sat (Calendar `.weekday` component).
     ///
-    /// Wednesday alternates: per Week Template, S6 Skill and Pull runs Blocks 2-4, and S4
+    /// All five weekday training/light sessions run Mon-Fri, with the longer weekly recovery
+    /// slot on Saturday (previously Monday) and Sunday staying Off. Each session's own content
+    /// and stop rules are unchanged by this shift — S3 is still "the day before the project
+    /// day" regardless of which two calendar days that now maps to.
+    ///
+    /// Tuesday alternates: per Week Template, S6 Skill and Pull runs Blocks 2-4, and S4
     /// Volume and Skill is "the Block 1 version and the reduced-week version" — so weeks 0-6
     /// (Block 0 + Block 1 + its reduced week) and the other two reduced weeks (12, 19) get S4;
     /// every other week gets S6.
     ///
-    /// Saturday alternates: per Plan MOC, "outdoor projecting from week 13" — so weeks 0-12
+    /// Friday alternates: per Plan MOC, "outdoor projecting from week 13" — so weeks 0-12
     /// default to the indoor S2 Limit Boulder, week 13+ default to S5 Outdoor Project Day. The
-    /// actual choice on any given Saturday is weather/skin/schedule dependent and the app can't
+    /// actual choice on any given Friday is weather/skin/schedule dependent and the app can't
     /// know that in advance; this is only the calendar default.
     static func sessionTemplateId(forWeekday weekday: Int, weekNumber: Int) -> String {
         switch weekday {
-        case 2: return "Monday Recovery"
-        case 3: return "S1 Finger Priority"
-        case 4: return (weekNumber <= 6 || reducedWeeks.contains(weekNumber)) ? "S4 Volume and Skill" : "S6 Skill and Pull"
-        case 5: return "Recovery"
-        case 6: return "S3 Power and Contact"
-        case 7: return weekNumber >= 13 ? "S5 Outdoor Project Day" : "S2 Limit Boulder"
+        case 2: return "S1 Finger Priority"
+        case 3: return (weekNumber <= 6 || reducedWeeks.contains(weekNumber)) ? "S4 Volume and Skill" : "S6 Skill and Pull"
+        case 4: return "Recovery"
+        case 5: return "S3 Power and Contact"
+        case 6: return weekNumber >= 13 ? "S5 Outdoor Project Day" : "S2 Limit Boulder"
+        case 7: return "Weekly Recovery"
         default: return "Off"
         }
     }

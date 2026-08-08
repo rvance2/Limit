@@ -25,7 +25,7 @@ Lattice's protocol exactly, so my number is comparable to their 901-climber data
 - Shoulder-width pronated grip.
 - Near-straight arms to chin over bar, controlled, no lower-body movement.
 - Three minutes between attempts, adding load.
-- Full range, bottom to chin over bar. No shoulder modification — version one carried one, based on an assumed anterior instability that doesn't match my presentation. Bars have never been a problem. [[Shoulder Capacity]].
+- Full range, bottom to chin over bar. No shoulder modification — bars have never been a problem. [[Shoulder Capacity]].
 - **Do not test a true 1RM.** Estimate it from the 2RM. General maximal-singles position, not a shoulder one.
 - Record total load including bodyweight, kg and % bodyweight.
 - Also record estimated 1RM from the 2RM. Don't test a true 1RM.

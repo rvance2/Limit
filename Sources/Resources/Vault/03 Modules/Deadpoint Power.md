@@ -32,11 +32,9 @@ No campus board, so the exercise changes and the dose principle carries: two ses
 5. **Double-hand bumps.** Both hands move.
 6. **Full dynos.** Block 3 onward.
 
-## On the shoulder
+## Progression logic
 
-Version one excluded dynos and one-arm catches and kept both feet on until week 14. That came from an assumed anterior instability. Catching on bars and edges has never produced symptoms — [[Shoulder Capacity]] has the correction — so those restrictions are gone.
-
-The remaining order is general load management: catches are high-impulse and the tissue that actually limits them is finger, not shoulder. Advance on clean landings, not on a calendar.
+No shoulder-based restrictions on dynos or one-arm catches — catching on bars and edges has never produced symptoms. [[Shoulder Capacity]]. The order above is general load management: catches are high-impulse and the tissue that actually limits them is finger, not shoulder. Advance on clean landings, not on a calendar.
 
 ## Trajectory before force
 

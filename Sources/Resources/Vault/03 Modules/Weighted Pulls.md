@@ -23,11 +23,9 @@ Base strength driver for [[Pulling Strength]] and the load base under [[One Arm 
 
 Pair with rows, 3 × 8-10, for balanced scapular work. Not as a restriction, just because horizontal pulling builds the pivoters and I want them.
 
-## What changed from version one
+## Full range
 
-Version one capped top sets at 90%, banned singles, forced a 2:1 row-to-pull-up ratio, and required stopping 5-10° short of full extension at the bottom. All of that came from an assumed anterior instability. Bars have never been a problem for me — 14 pull-ups on an average day, 23 on a good one, clean muscle-up — so the bottom-of-range restriction in particular was solving a problem I don't have.
-
-Removed. Full range, load it properly. [[Shoulder Capacity]] has the correction.
+No load cap or range restriction tied to the shoulder. Bars have never been a problem — 14 pull-ups on an average day, 23 on a good one, clean muscle-up. Full range, load it properly. [[Shoulder Capacity]] has the reasoning.
 
 The one thing kept: no true 1RM testing. Estimate it from a 2RM or a 3RM instead. That's a general "maximal singles have poor return-to-risk for a climber" position, not a shoulder position.
 

@@ -4,25 +4,25 @@ tags: [plan]
 
 # Week Template
 
-Five slots. In a 4-day week, drop Friday and move [[Deadpoint Power]] into Tuesday at reduced volume.
+Five slots. In a 4-day week, drop Thursday and move [[Deadpoint Power]] into Monday at reduced volume.
 
 | Day | Session | Duration | Modules |
 | --- | --- | --- | --- |
-| Mon | Recovery | 45 min | [[Shoulder Protocol]], [[Deep Shoulder Positions]], [[Hip and Ankle Mobility]], [[Antagonist and Wrist]], [[Visualization Protocol]] |
-| Tue | [[S1 Finger Priority]] | 100 min | Primary finger method, [[Limit Bouldering]], [[Tension Circuit]] |
-| Wed | [[S6 Skill and Pull]] (Blocks 2-4) or [[S4 Volume and Skill]] (Block 1, reduced weeks) | 100 / 90 min | [[Footwork Precision]], [[Style Roulette]], [[Weighted Pulls]], [[One Arm Progression]] |
-| Thu | Recovery | 25 min | [[Shoulder Protocol]], [[Hip and Ankle Mobility]] |
-| Fri | [[S3 Power and Contact]] | 80 min | [[Recruitment Pulls]], [[Deadpoint Power]], [[Contact Strength Ladder]] |
-| Sat | [[S5 Outdoor Project Day]] or [[S2 Limit Boulder]] | 3-5 h / 90 min | [[Attempt Discipline]], [[Beta Lab]] |
+| Mon | [[S1 Finger Priority]] | 100 min | Primary finger method, [[Limit Bouldering]], [[Tension Circuit]] |
+| Tue | [[S6 Skill and Pull]] (Blocks 2-4) or [[S4 Volume and Skill]] (Block 1, reduced weeks) | 100 / 90 min | [[Footwork Precision]], [[Style Roulette]], [[Weighted Pulls]], [[One Arm Progression]] |
+| Wed | Recovery | 25 min | [[Shoulder Protocol]], [[Hip and Ankle Mobility]] |
+| Thu | [[S3 Power and Contact]] | 80 min | [[Recruitment Pulls]], [[Deadpoint Power]], [[Contact Strength Ladder]] |
+| Fri | [[S5 Outdoor Project Day]] or [[S2 Limit Boulder]] | 3-5 h / 90 min | [[Attempt Discipline]], [[Beta Lab]] |
+| Sat | Recovery | 45 min | [[Shoulder Protocol]], [[Deep Shoulder Positions]], [[Hip and Ankle Mobility]], [[Antagonist and Wrist]], [[Visualization Protocol]] |
 | Sun | Off | — | [[Shoulder Protocol]], review in [[Log Templates]] |
 
 ## Ordering logic
 
-Two days between the two highest-intensity finger sessions (Tue and Sat). Neural fatigue lasts days and shows up as reduced [[Rate of Force Development]] before reduced peak force, so the gap isn't negotiable.
+Two days between the two highest-intensity finger sessions (Mon and Fri). Neural fatigue lasts days and shows up as reduced [[Rate of Force Development]] before reduced peak force, so the gap isn't negotiable.
 
-Wednesday is deliberately low intensity on the wall. From Block 2 it also carries the pull work in [[S6 Skill and Pull]] — skill first, strength second, because skill done after heavy pulling teaches sloppy movement. Pulling is the only thing in the week that doesn't compete neurally with fingers, and Wednesday is 48 h from both Tuesday and Friday.
+Tuesday is deliberately low intensity on the wall. From Block 2 it also carries the pull work in [[S6 Skill and Pull]] — skill first, strength second, because skill done after heavy pulling teaches sloppy movement. Pulling is the only thing in the week that doesn't compete neurally with fingers, and Tuesday is 48 h from both Monday and Thursday.
 
-Friday sits 48 h after Tuesday and 24 before Saturday. That last gap is short, which is why Friday's volume is small and why Friday gets cut first when [[Readiness Monitoring]] flags two.
+Thursday sits 48 h after Monday and 24 before Friday. That last gap is short, which is why Thursday's volume is small and why Thursday gets cut first when [[Readiness Monitoring]] flags two.
 
 ## Session order
 
@@ -43,9 +43,9 @@ Same five slots. Changes:
 
 - Finger volume 60%, intensity 85-90%.
 - No [[Limit Bouldering]], no [[Deadpoint Power]], no [[Contact Strength Ladder]].
-- Wednesday reverts to [[S4 Volume and Skill]]. [[One Arm Progression]] holds at its current stage, no progression attempts. [[Weighted Pulls]] at 60% volume.
+- Tuesday reverts to [[S4 Volume and Skill]]. [[One Arm Progression]] holds at its current stage, no progression attempts. [[Weighted Pulls]] at 60% volume.
 - Wall work 2-3 grades below limit, [[Movement Efficiency Drills]] as the content.
-- Everything in the Mon/Thu slots unchanged.
+- Everything in the Wed/Sat slots unchanged.
 - When [[Skin]] heals and technique improves.
 
 ## Daily non-negotiables, any block

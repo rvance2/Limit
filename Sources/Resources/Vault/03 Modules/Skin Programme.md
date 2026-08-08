@@ -19,16 +19,16 @@ Sweaty skin, already on Antihydral. This is about doing it with a schedule and a
 
 Timing consensus: apply 2-3 days before I need the effect, effects last around a week from one application, wide individual variation. Repeated application stacks; overshoot gives glassy, brittle skin that splits.
 
-Conservative start, project day Saturday:
+Conservative start, project day Friday:
 
 | Day | Action |
 | --- | --- |
-| Wednesday night | Thin layer, fingertips and palms. Avoid creases. Wash off after 30-60 min. |
-| Thursday | Moisturise heavily. No Antihydral. |
-| Friday | Moisturise. Light file if needed. Assess: too dry, correct, still sweaty? |
-| Saturday | Project day. Adjust next week's dose from Friday's assessment. |
+| Tuesday night | Thin layer, fingertips and palms. Avoid creases. Wash off after 30-60 min. |
+| Wednesday | Moisturise heavily. No Antihydral. |
+| Thursday | Moisturise. Light file if needed. Assess: too dry, correct, still sweaty? |
+| Friday | Project day. Adjust next week's dose from Thursday's assessment. |
 
-Escalate only if Friday says "still sweaty." The aggressive regimes — every other night in the week before a trip — come from climbers at 5.15 who've calibrated their own skin over years. Not a starting point.
+Escalate only if Thursday says "still sweaty." The aggressive regimes — every other night in the week before a trip — come from climbers at 5.15 who've calibrated their own skin over years. Not a starting point.
 
 ## Non-negotiables
 

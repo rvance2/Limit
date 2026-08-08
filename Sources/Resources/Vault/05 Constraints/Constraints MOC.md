@@ -16,9 +16,9 @@ Four things about my body override the plan rather than fitting inside it. Const
 
 Pulled from the module notes so I can see it all at once.
 
-**Shoulder — corrected**
+**Shoulder**
 
-The first version of this list assumed anterior instability and restricted bar work, dynos, load, range and unilateral training. That assumption was wrong. Bars and edges have never produced symptoms; the click appears only in loaded underclings and cross-body isolations, is painless, and leaves nothing behind. [[Shoulder Capacity]] has the full correction.
+Bars and edges have never produced symptoms; the click appears only in loaded underclings and cross-body isolations, is painless, and leaves nothing behind. [[Shoulder Capacity]] has the reasoning.
 
 What actually remains:
 

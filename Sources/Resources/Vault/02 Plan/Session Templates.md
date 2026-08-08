@@ -6,12 +6,12 @@ tags: [hub, plan]
 
 Five session types. Each names its warm-up, its order, its stop rules, and what to cut when short on time.
 
-- [[S1 Finger Priority]] — Tuesday. Most important session of the week.
-- [[S2 Limit Boulder]] — Saturday indoor alternative.
-- [[S3 Power and Contact]] — Friday. Rate work.
-- [[S4 Volume and Skill]] — Wednesday in Block 1 and reduced weeks. Low intensity, high learning.
-- [[S5 Outdoor Project Day]] — Saturday when conditions allow.
-- [[S6 Skill and Pull]] — Wednesday in Blocks 2-4. S4 with the pull block attached.
+- [[S1 Finger Priority]] — Monday. Most important session of the week.
+- [[S2 Limit Boulder]] — Friday indoor alternative.
+- [[S3 Power and Contact]] — Thursday. Rate work.
+- [[S4 Volume and Skill]] — Tuesday in Block 1 and reduced weeks. Low intensity, high learning.
+- [[S5 Outdoor Project Day]] — Friday when conditions allow.
+- [[S6 Skill and Pull]] — Tuesday in Blocks 2-4. S4 with the pull block attached.
 
 ## Universal warm-up
 

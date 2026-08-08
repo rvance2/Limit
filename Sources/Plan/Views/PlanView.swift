@@ -33,7 +33,7 @@ enum PlanScheduler {
 
     static func shortLabel(forTemplateId id: String) -> String {
         switch id {
-        case "Recovery", "Monday Recovery": return "Rec"
+        case "Recovery", "Weekly Recovery": return "Rec"
         case "S1 Finger Priority": return "S1"
         case "S2 Limit Boulder": return "S2"
         case "S3 Power and Contact": return "S3"
@@ -47,7 +47,7 @@ enum PlanScheduler {
 
     static func color(forTemplateId id: String) -> Color {
         switch id {
-        case "Recovery", "Monday Recovery": return .mint
+        case "Recovery", "Weekly Recovery": return .mint
         case "S1 Finger Priority": return .blue
         case "S2 Limit Boulder": return .indigo
         case "S3 Power and Contact": return .red
@@ -401,10 +401,19 @@ struct SessionDetailView: View {
 
             if let session {
                 let blockNumber = weekInfo.flatMap { SeedStore.shared.blockNumber(for: $0.blockID) }
+                let visibleItems = session.items.filter { item in
+                    guard let blocks = item.blocks, let blockNumber else { return true }
+                    return blocks.contains(blockNumber)
+                }
 
                 Section(session.name) {
                     if let duration = session.duration {
                         LabeledContent("Duration", value: duration)
+                    }
+                    if blockNumber == 1, let variation = session.block1Variation {
+                        Text(MarkdownView.attributed(variation))
+                            .font(.footnote)
+                            .foregroundColor(.secondary)
                     }
                     if let pre = session.preSession, !pre.isEmpty {
                         Text(MarkdownView.attributed(pre))
@@ -414,7 +423,7 @@ struct SessionDetailView: View {
                 }
 
                 Section("Items") {
-                    ForEach(session.items.sorted(by: { $0.order < $1.order })) { item in
+                    ForEach(visibleItems.sorted(by: { $0.order < $1.order })) { item in
                         let resolvedModuleId = item.moduleId ?? FingerMethodResolver.moduleID(forItemName: item.name, blockNumber: blockNumber)
                         VStack(alignment: .leading, spacing: 4) {
                             Text(FingerMethodResolver.displayName(itemName: item.name, blockNumber: blockNumber))

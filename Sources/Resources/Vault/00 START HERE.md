@@ -93,4 +93,4 @@ The plan has reduced weeks. I wanted none. Reduced weeks aren't stops, they're t
 
 Conventions in [[How To Use This Vault]]. Start at [[Block 0 — Baseline Week]].
 
-Tooling: App Build Prompt is the spec for an iOS companion app that runs this plan.
+Tooling: [[App Build Prompt]] is the spec for an iOS companion app that runs this plan.

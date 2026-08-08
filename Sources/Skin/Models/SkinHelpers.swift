@@ -9,19 +9,19 @@ enum SkinCondition: String, CaseIterable, Identifiable {
 }
 
 enum SkinScheduleDay: String, CaseIterable, Identifiable {
-    case wednesday = "Wednesday night"
+    case tuesday = "Tuesday night"
+    case wednesday = "Wednesday"
     case thursday = "Thursday"
     case friday = "Friday"
-    case saturday = "Saturday"
 
     var id: String { rawValue }
 
     var action: String {
         switch self {
-        case .wednesday: return "Thin layer, fingertips and palms. Avoid creases. Wash off after 30-60 min."
-        case .thursday: return "Moisturise heavily. No Antihydral."
-        case .friday: return "Moisturise. Light file if needed. Assess: too dry, correct, still sweaty?"
-        case .saturday: return "Project day. Adjust next week's dose from Friday's assessment."
+        case .tuesday: return "Thin layer, fingertips and palms. Avoid creases. Wash off after 30-60 min."
+        case .wednesday: return "Moisturise heavily. No Antihydral."
+        case .thursday: return "Moisturise. Light file if needed. Assess: too dry, correct, still sweaty?"
+        case .friday: return "Project day. Adjust next week's dose from Thursday's assessment."
         }
     }
 }
@@ -46,7 +46,7 @@ enum SkinReadiness {
             case SkinCondition.glassy.rawValue:
                 return "Glassy at last log. Escalate no further. Moisturise while using it."
             case SkinCondition.sweaty.rawValue:
-                return "Still sweaty at last log. Escalate only if Friday reads still sweaty."
+                return "Still sweaty at last log. Escalate only if Thursday reads still sweaty."
             case SkinCondition.dry.rawValue:
                 return "Dry at last log. Assess before adding more Antihydral."
             case SkinCondition.correct.rawValue:

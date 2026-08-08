@@ -37,7 +37,7 @@ Fresh shoes broken in during week 20 and saved. Fan packed. Frozen bottle if hot
 
 ## Skin is the binding constraint
 
-On sharp rock, attempt count is skin-limited before it's strength-limited. Follow the [[Skin Programme]] Antihydral schedule with a Saturday target. The attempt budget in [[Attempt Discipline]] is partly a skin budget.
+On sharp rock, attempt count is skin-limited before it's strength-limited. Follow the [[Skin Programme]] Antihydral schedule with a Friday target. The attempt budget in [[Attempt Discipline]] is partly a skin budget.
 
 Skin at 2/5 on a project day: go anyway and take four attempts rather than ten. Four good attempts on good skin beats ten degrading ones.
 
