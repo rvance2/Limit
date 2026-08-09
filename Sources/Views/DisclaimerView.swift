@@ -15,14 +15,6 @@ struct DisclaimerView: View {
             VStack(alignment: .leading, spacing: 16) {
                 Text("A personal training log for one climber running a specific plan.")
                     .font(.body)
-
-                Text("Not a medical device. Not medical advice.")
-                    .font(.subheadline)
-                    .foregroundStyle(.secondary)
-
-                Text("All data stays on this device. No accounts, no cloud, no sharing.")
-                    .font(.subheadline)
-                    .foregroundStyle(.secondary)
             }
 
             Spacer()
