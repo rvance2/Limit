@@ -1,7 +1,6 @@
 import SwiftUI
 
-/// Spec §7: "Add a one-screen first-launch disclaimer: personal training log, not a medical
-/// device, not medical advice." Shown once via `hasSeenDisclaimer`, not re-shown after.
+
 struct DisclaimerView: View {
     let onContinue: () -> Void
 
