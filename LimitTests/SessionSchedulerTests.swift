@@ -7,8 +7,8 @@ final class SessionSchedulerTests: XCTestCase {
         // Week 5 is inside Block 1 (weeks 1-5), so Tuesday is still S4.
         XCTAssertEqual(SessionScheduler.sessionTemplateId(forWeekday: 2, weekNumber: 5), "S1 Finger Priority") // Mon
         XCTAssertEqual(SessionScheduler.sessionTemplateId(forWeekday: 3, weekNumber: 5), "S4 Volume and Skill") // Tue
-        XCTAssertEqual(SessionScheduler.sessionTemplateId(forWeekday: 4, weekNumber: 5), "Recovery") // Wed
-        XCTAssertEqual(SessionScheduler.sessionTemplateId(forWeekday: 5, weekNumber: 5), "S3 Power and Contact") // Thu
+        XCTAssertEqual(SessionScheduler.sessionTemplateId(forWeekday: 4, weekNumber: 5), "S3 Power and Contact") // Wed
+        XCTAssertEqual(SessionScheduler.sessionTemplateId(forWeekday: 5, weekNumber: 5), "Recovery") // Thu
         XCTAssertEqual(SessionScheduler.sessionTemplateId(forWeekday: 6, weekNumber: 5), "S2 Limit Boulder") // Fri
         XCTAssertEqual(SessionScheduler.sessionTemplateId(forWeekday: 7, weekNumber: 5), "Weekly Recovery") // Sat
         XCTAssertEqual(SessionScheduler.sessionTemplateId(forWeekday: 1, weekNumber: 5), "Off") // Sun

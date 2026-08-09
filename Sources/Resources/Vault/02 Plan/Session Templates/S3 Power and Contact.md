@@ -1,6 +1,6 @@
 ---
 tags: [plan, session]
-day: Friday
+day: Wednesday
 duration: 80 min
 ---
 
@@ -17,9 +17,10 @@ Rate work. Dies fastest under fatigue, and most often wasted by doing it at 90% 
 | 3 | [[Deadpoint Power]] | 30 min | 3, 4 |
 | 4 | [[Contact Strength Ladder]] | 12 min | 2, 3 |
 | 5 | [[Lower Limb Resilience]] | 8 min | all |
-| 6 | [[Shoulder Protocol]] | 12 min | all |
 
 In Block 1 this becomes a second [[S4 Volume and Skill]] with [[Contact Strength Ladder]] stage 2 added.
+
+No dedicated [[Shoulder Protocol]] here — the comprehensive session is Saturday, light activation is Thursday and Sunday. Loading the cuff hard the day before or after this session's catch work would be working the same tissue twice in close succession for no real gain.
 
 ## Intent requirement
 
@@ -41,6 +42,5 @@ No shoulder-based restrictions on dynos or one-arm catches — bars and edges ha
 - [[Recruitment Pulls]]: peak 5% below session best.
 - Shoulder pain: exercise over for the day. The painless positional click doesn't appear in catch work.
 - Any finger pop, click, or sting: session over.
-- Two flags on [[Readiness Monitoring]] this morning: this is the session to cut, because it's 24 hours before Friday.
 
 Links: [[Deadpoint Power]] · [[Recruitment Pulls]] · [[Contact Strength Ladder]] · [[Shoulder Protocol]]

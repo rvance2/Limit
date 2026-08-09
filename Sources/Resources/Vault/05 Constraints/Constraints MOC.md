@@ -23,7 +23,7 @@ Bars and edges have never produced symptoms; the click appears only in loaded un
 What actually remains:
 
 - **Load the provocative positions, don't avoid them.** [[Deep Shoulder Positions]], graded by load, twice weekly.
-- [[Shoulder Protocol]] 3×/week for all 22 weeks including reduced weeks. Now a strength module, not a band routine. Last thing cut.
+- [[Shoulder Protocol]]: one comprehensive session weekly plus two light ones, all 22 weeks including reduced weeks. Now a strength module, not a band routine. Last thing cut.
 - No true 1RM testing on [[Weighted Pulls]]. Estimate from a 2-3RM. General maximal-singles position, not a shoulder one.
 - Book an assessment. Not a gate on anything.
 

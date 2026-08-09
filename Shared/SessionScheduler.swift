@@ -14,9 +14,10 @@ enum SessionScheduler {
     /// weekday: 1=Sun, 2=Mon, 3=Tue, 4=Wed, 5=Thu, 6=Fri, 7=Sat (Calendar `.weekday` component).
     ///
     /// All five weekday training/light sessions run Mon-Fri, with the longer weekly recovery
-    /// slot on Saturday (previously Monday) and Sunday staying Off. Each session's own content
-    /// and stop rules are unchanged by this shift — S3 is still "the day before the project
-    /// day" regardless of which two calendar days that now maps to.
+    /// slot on Saturday and Sunday staying Off. The light Recovery day sits on Thursday,
+    /// immediately before Friday's project day, rather than on Wednesday — a project day with
+    /// no rest immediately before it is worse than a pull day (Tuesday) sitting close to a
+    /// power day (Wednesday), so when only one buffer slot is available it goes here.
     ///
     /// Tuesday alternates: per Week Template, S6 Skill and Pull runs Blocks 2-4, and S4
     /// Volume and Skill is "the Block 1 version and the reduced-week version" — so weeks 0-6
@@ -31,8 +32,8 @@ enum SessionScheduler {
         switch weekday {
         case 2: return "S1 Finger Priority"
         case 3: return (weekNumber <= 6 || reducedWeeks.contains(weekNumber)) ? "S4 Volume and Skill" : "S6 Skill and Pull"
-        case 4: return "Recovery"
-        case 5: return "S3 Power and Contact"
+        case 4: return "S3 Power and Contact"
+        case 5: return "Recovery"
         case 6: return weekNumber >= 13 ? "S5 Outdoor Project Day" : "S2 Limit Boulder"
         case 7: return "Weekly Recovery"
         default: return "Off"

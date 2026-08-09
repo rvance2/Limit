@@ -24,13 +24,13 @@ Skill first, pull second. Skill work done after heavy pulling teaches sloppy mov
 | 7 | Rows, 3 × 8-10 | 7 min |
 | 8 | [[Hip and Ankle Mobility]] | 12 min |
 
-121 min at the top end. Trim item 3 to 15 min and item 8 to Wednesday to make ~100.
+121 min at the top end. Trim item 3 to 15 min and item 8 to Thursday to make ~100.
 
 Item 4 alternates tracks: underclings one session, cross-body isolations the next. It goes before the heavy pulling because it's the quality work, and after the skill work because it's loaded.
 
 ## Why Tuesday
 
-48 hours after [[S1 Finger Priority]] and 48 before [[S3 Power and Contact]]. Pull fatigue clears in that window; putting it Sunday would compromise Monday, and Wednesday would compromise Thursday.
+48 hours after [[S1 Finger Priority]] — that gap is the one that isn't negotiable, since Monday's finger work and this session's pull work compete for grip and forearm capacity. It sits directly against [[S3 Power and Contact]] on Wednesday with no gap, which isn't ideal, but pulling and catch work don't compete for the same tissue the way two finger days would, and the day that actually needed the buffer was Friday's project day — that's where Thursday's recovery slot went instead. [[Week Template]] has the full trade.
 
 ## What this costs
 

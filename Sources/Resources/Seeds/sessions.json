@@ -49,7 +49,7 @@
   {
     "id": "S3 Power and Contact",
     "name": "S3 Power and Contact",
-    "day": "Thursday",
+    "day": "Wednesday",
     "duration": "80 min",
     "items": [
       {"order": 1, "name": "Universal warm-up", "moduleId": null, "time": "20 min", "blocks": null, "variation": "all", "cuttable": false},
@@ -66,8 +66,7 @@
       "Catch quality degrading (sloppy landings, uncontrolled swing) means the nervous system is done. Over regardless of reps remaining.",
       "Recruitment Pulls: peak 5% below session best.",
       "Shoulder pain: exercise over for the day. The painless positional click doesn't appear in catch work.",
-      "Any finger pop, click, or sting: session over.",
-      "Two flags on Readiness Monitoring this morning: this is the session to cut, because it's 24 hours before Friday."
+      "Any finger pop, click, or sting: session over."
     ],
     "shortOnTimeNote": null
   },
@@ -138,7 +137,7 @@
       {"order": 5, "name": "Weighted Pulls: primary sets", "moduleId": "Weighted Pulls", "time": "20 min", "blocks": null, "variation": null, "cuttable": false},
       {"order": 6, "name": "One Arm Progression: current stage, both sides", "moduleId": "One Arm Progression", "time": "15 min", "blocks": null, "variation": null, "cuttable": false},
       {"order": 7, "name": "Rows", "moduleId": null, "time": "7 min", "blocks": null, "variation": "3 x 8-10", "cuttable": true},
-      {"order": 8, "name": "Hip and Ankle Mobility", "moduleId": "Hip and Ankle Mobility", "time": "12 min", "blocks": null, "variation": "Trim to Wednesday if short on time.", "cuttable": true}
+      {"order": 8, "name": "Hip and Ankle Mobility", "moduleId": "Hip and Ankle Mobility", "time": "12 min", "blocks": null, "variation": "Trim to Thursday if short on time.", "cuttable": true}
     ],
     "block1Variation": null,
     "preSession": null,
@@ -150,7 +149,7 @@
       "Skin at 2/5 from Monday: do items 1, 4-8 and skip the wall climbing. Friday matters more.",
       "Any finger stiffness on waking: items 4-8 only."
     ],
-    "shortOnTimeNote": "121 min at the top end. Trim item 3 to 15 min and item 8 to Wednesday to make ~100.",
+    "shortOnTimeNote": "121 min at the top end. Trim item 3 to 15 min and item 8 to Thursday to make ~100.",
     "intensityCeiling": "Items 2 and 3 stay at or below two grades under my limit. Still a skill day with a strength block attached, not a hard session.",
     "filming": null
   },
@@ -174,10 +173,10 @@
   {
     "id": "Recovery",
     "name": "Recovery",
-    "day": "Wednesday",
+    "day": "Thursday",
     "duration": "25 min",
     "items": [
-      {"order": 1, "name": "Shoulder Protocol", "moduleId": "Shoulder Protocol", "time": null, "blocks": null, "variation": null, "cuttable": false},
+      {"order": 1, "name": "Shoulder Activation, light", "moduleId": "Shoulder Protocol", "time": "6 min", "blocks": null, "variation": "Items 1, 4, 5 only: half-kneeling external rotation, loaded serratus punch, prone lower-trap raise. 2 sets each. Comprehensive version is Saturday.", "cuttable": false},
       {"order": 2, "name": "Hip and Ankle Mobility", "moduleId": "Hip and Ankle Mobility", "time": null, "blocks": null, "variation": null, "cuttable": false}
     ],
     "block1Variation": null,
@@ -191,7 +190,7 @@
     "day": "Sunday",
     "duration": null,
     "items": [
-      {"order": 1, "name": "Shoulder Protocol", "moduleId": "Shoulder Protocol", "time": null, "blocks": null, "variation": null, "cuttable": false},
+      {"order": 1, "name": "Shoulder Activation, light", "moduleId": "Shoulder Protocol", "time": "6 min", "blocks": null, "variation": "Items 1, 4, 5 only: half-kneeling external rotation, loaded serratus punch, prone lower-trap raise. 2 sets each. Comprehensive version is Saturday.", "cuttable": false},
       {"order": 2, "name": "Review in Log Templates", "moduleId": null, "time": null, "blocks": null, "variation": null, "cuttable": true}
     ],
     "block1Variation": null,

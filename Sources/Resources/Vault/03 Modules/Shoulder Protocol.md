@@ -2,19 +2,19 @@
 tags: [module, physical]
 trains: ["[[Shoulder Capacity]]"]
 blocks: [all]
-frequency: 3x weekly, 15 minutes
+frequency: 1x comprehensive (15 min, Saturday) + 2x light (6 min, Thursday/Sunday)
 priority: last thing cut, never first
 ---
 
 # Shoulder Protocol
 
-Fifteen minutes, three times a week, all 22 weeks. The job is closing the gap between what my prime movers can generate and what my cuff can control. [[Shoulder Capacity]] has the reasoning.
+One comprehensive session a week plus two light ones, all 22 weeks. The job is closing the gap between what my prime movers can generate and what my cuff can control. [[Shoulder Capacity]] has the reasoning.
 
 **Not medical advice.** I have never had this assessed and should. Nothing here is a diagnosis. But a painless, positional, functionally silent click does not justify pausing training while I wait for an appointment.
 
 Real load, not a band routine — the cuff doesn't get stronger from fifteen easy reps when the lats it has to keep up with can do 23 pull-ups.
 
-## The session, 15 minutes
+## The comprehensive session, 15 minutes (Saturday)
 
 **Cuff, under real load — 6 min**
 
@@ -32,6 +32,12 @@ Real load, not a band routine — the cuff doesn't get stronger from fifteen eas
 
 7. **Overhead carry or waiter's walk**, 3 × 30 m each side. The cuff working while everything else is tired is the condition that actually fails on the wall.
 8. **Controlled articular rotations**, 3 slow circles each direction, end range.
+
+## Light day, 6 minutes (Thursday, Sunday)
+
+Items 1, 4, and 5 only, 2 sets each instead of 3 — the same movements, not a different exercise: half-kneeling external rotation, loaded serratus punch, prone lower-trap raise. Enough to keep the pattern grooved and the cuff touched between the comprehensive sessions without adding real fatigue on days that are supposed to be light.
+
+The comprehensive session is where the capacity gets built. This is maintenance in between.
 
 ## Progression
 

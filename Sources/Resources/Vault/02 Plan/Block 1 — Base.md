@@ -10,7 +10,7 @@ Five weeks building the tissue, the shoulder and the pull base that Blocks 2 and
 
 ## Priorities in order
 
-1. [[Shoulder Protocol]] 3×/week, building to full load with control.
+1. [[Shoulder Protocol]]: comprehensive session weekly, two light ones between, building to full load with control.
 2. [[Max Hangs]] with added weight on 20 mm, half crimp. One method, five weeks.
 3. [[Deep Shoulder Positions]] twice weekly, both tracks from stage 1.
 4. Technique: [[Footwork Precision]], [[Style Roulette]], [[Movement Efficiency Drills]].
@@ -51,7 +51,7 @@ Five weeks is not long. The payoff is weeks 7-18 not getting interrupted.
 All of these before Block 2. See [[Checkpoints]] for what to do if one fails.
 
 - Added weight on [[Max Hangs]] has increased across the five weeks. If flat, hold the block two more weeks.
-- [[Shoulder Protocol]] at full load, 3×/week, four consecutive weeks.
+- [[Shoulder Protocol]]: comprehensive session at full load, four consecutive weeks.
 - No morning finger stiffness over 15 minutes in the last two weeks, no palpation tenderness over any pulley.
 - [[One Arm Progression]] back to at least the week-0 tested stage on both sides.
 - [[Deep Shoulder Positions]] track A stage 3, track B stage 2, click no worse than 1/3.
