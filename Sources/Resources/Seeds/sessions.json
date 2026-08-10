@@ -50,25 +50,28 @@
     "id": "S3 Power and Contact",
     "name": "S3 Power and Contact",
     "day": "Wednesday",
-    "duration": "80 min",
+    "duration": "100 min",
     "items": [
       {"order": 1, "name": "Universal warm-up", "moduleId": null, "time": "20 min", "blocks": null, "variation": "all", "cuttable": false},
-      {"order": 2, "name": "Recruitment Pulls", "moduleId": "Recruitment Pulls", "time": "12 min", "blocks": [2, 3, 4], "variation": null, "cuttable": false},
-      {"order": 2, "name": "Footwork Precision: two drills, drawn at random", "moduleId": "Footwork Precision", "time": "12 min", "blocks": [1], "variation": "Second S4-style day this block.", "cuttable": true},
-      {"order": 3, "name": "Deadpoint Power", "moduleId": "Deadpoint Power", "time": "30 min", "blocks": [3, 4], "variation": null, "cuttable": false},
-      {"order": 3, "name": "Style Roulette", "moduleId": "Style Roulette", "time": "30 min", "blocks": [1], "variation": null, "cuttable": true},
-      {"order": 4, "name": "Contact Strength Ladder", "moduleId": "Contact Strength Ladder", "time": "12 min", "blocks": [1, 2, 3], "variation": "Block 1: stage 2.", "cuttable": true},
-      {"order": 5, "name": "Lower Limb Resilience", "moduleId": "Lower Limb Resilience", "time": "8 min", "blocks": null, "variation": "all", "cuttable": true}
+      {"order": 2, "name": "Primary finger method", "moduleId": null, "time": "25 min", "blocks": null, "variation": "B1: Max Hangs MAW 20mm · B2: MED Hangs · B3: Max Hangs + Grip Specificity Block · B4: Max Hangs 3 sets only. Second weekly occurrence, with Monday. Week 22 tapers to once weekly, Monday only — skip this one that week.", "cuttable": "lastSetOnly"},
+      {"order": 3, "name": "Recruitment Pulls", "moduleId": "Recruitment Pulls", "time": "12 min", "blocks": [2, 3, 4], "variation": null, "cuttable": false},
+      {"order": 3, "name": "Footwork Precision: two drills, drawn at random", "moduleId": "Footwork Precision", "time": "12 min", "blocks": [1], "variation": "Second S4-style day this block.", "cuttable": true},
+      {"order": 4, "name": "Deadpoint Power", "moduleId": "Deadpoint Power", "time": "30 min", "blocks": [3, 4], "variation": null, "cuttable": false},
+      {"order": 4, "name": "Style Roulette", "moduleId": "Style Roulette", "time": "30 min", "blocks": [1], "variation": null, "cuttable": true},
+      {"order": 5, "name": "Contact Strength Ladder", "moduleId": "Contact Strength Ladder", "time": "12 min", "blocks": [1, 2, 3], "variation": "Block 1: stage 2.", "cuttable": true},
+      {"order": 6, "name": "Lower Limb Resilience", "moduleId": "Lower Limb Resilience", "time": "8 min", "blocks": null, "variation": "all", "cuttable": true}
     ],
-    "block1Variation": "Becomes a second S4 Volume and Skill with Contact Strength Ladder stage 2 added.",
-    "preSession": null,
+    "block1Variation": "Becomes a second S4 Volume and Skill with Contact Strength Ladder stage 2 and the twice-weekly finger session added.",
+    "preSession": "Tendon Nutrition Timing 60 min before, same as any finger session.",
     "stopRules": [
+      "Grip position changing mid-hang: that set doesn't count. Two in a row ends the exercise.",
+      "Palpation tenderness over a pulley found during warm-up: 25-30 mm and drop load 30% for the day, then read Tendon Health.",
       "Catch quality degrading (sloppy landings, uncontrolled swing) means the nervous system is done. Over regardless of reps remaining.",
       "Recruitment Pulls: peak 5% below session best.",
       "Shoulder pain: exercise over for the day. The painless positional click doesn't appear in catch work.",
       "Any finger pop, click, or sting: session over."
     ],
-    "shortOnTimeNote": null
+    "shortOnTimeNote": "Running long: warm-up, finger method, then cut from the bottom (Lower Limb Resilience, then Contact Strength Ladder)."
   },
   {
     "id": "S4 Volume and Skill",

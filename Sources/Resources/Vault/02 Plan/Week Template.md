@@ -10,7 +10,7 @@ Five slots. In a 4-day week, drop Wednesday and move [[Deadpoint Power]] into Mo
 | --- | --- | --- | --- |
 | Mon | [[S1 Finger Priority]] | 100 min | Primary finger method, [[Limit Bouldering]], [[Tension Circuit]] |
 | Tue | [[S6 Skill and Pull]] (Blocks 2-4) or [[S4 Volume and Skill]] (Block 1, reduced weeks) | 100 / 90 min | [[Footwork Precision]], [[Style Roulette]], [[Weighted Pulls]], [[One Arm Progression]] |
-| Wed | [[S3 Power and Contact]] | 80 min | [[Recruitment Pulls]], [[Deadpoint Power]], [[Contact Strength Ladder]] |
+| Wed | [[S3 Power and Contact]] | 100 min | Primary finger method (second weekly), [[Recruitment Pulls]], [[Deadpoint Power]], [[Contact Strength Ladder]] |
 | Thu | Recovery | 25 min | Light [[Shoulder Protocol]] activation, [[Hip and Ankle Mobility]] |
 | Fri | [[S5 Outdoor Project Day]] or [[S2 Limit Boulder]] | 3-5 h / 90 min | [[Attempt Discipline]], [[Beta Lab]] |
 | Sat | Recovery | 45 min | Full [[Shoulder Protocol]], [[Deep Shoulder Positions]], [[Hip and Ankle Mobility]], [[Antagonist and Wrist]], [[Visualization Protocol]] |
