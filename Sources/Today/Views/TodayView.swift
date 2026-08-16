@@ -5,7 +5,8 @@ struct TodayView: View {
     @Environment(\.modelContext) private var modelContext
     @Query(sort: \DayLog.date, order: .reverse) private var dayLogs: [DayLog]
     @Query private var appStates: [AppState]
-    
+    @Query private var sessionLogs: [SessionLog]
+
     @State private var showingSurvey = false
     @State private var showingSessionRunner = false
     @State private var showingSettings = false
@@ -32,6 +33,16 @@ struct TodayView: View {
 
     var sessionTemplateIdForToday: String {
         SessionScheduler.sessionTemplateId(forWeekday: Calendar.current.component(.weekday, from: .now), weekNumber: currentWeek)
+    }
+
+    /// Whether today's session was already opened — `SessionRunnerView` creates this the
+    /// moment it first appears, before anything's actually logged, so its presence just means
+    /// "started," not "has entries." Existing either way, since the close button now lets
+    /// someone step away mid-session without finishing it.
+    var todaySessionLog: SessionLog? {
+        sessionLogs.first {
+            $0.templateID == sessionTemplateIdForToday && Calendar.current.isDateInToday($0.date)
+        }
     }
 
     private let nonNegotiables: [(label: String, noteTitle: String?)] = [
@@ -126,7 +137,7 @@ struct TodayView: View {
                                 Text(session.name)
                                     .font(.title3.bold())
                                 
-                                ForEach(session.items) { item in
+                                ForEach(visibleItems(for: session)) { item in
                                     let resolvedModuleID = item.moduleId ?? FingerMethodResolver.moduleID(forItemName: item.name, blockNumber: currentBlockNumber)
                                     HStack(alignment: .top) {
                                         Text("•")
@@ -156,7 +167,7 @@ struct TodayView: View {
                                     }
                                 }
                                 
-                                Button("Start Session") {
+                                Button(todaySessionLog != nil ? "Resume Session" : "Start Session") {
                                     showingSessionRunner = true
                                 }
                                 .buttonStyle(.borderedProminent)
@@ -226,6 +237,10 @@ struct TodayView: View {
                                 }
                                 Divider()
                             }
+                            NavigationLink(destination: HangboardTimerView()) {
+                                toolRow("Timer", systemImage: "timer")
+                            }
+                            Divider()
                             NavigationLink(destination: SkinView()) {
                                 toolRow("Skin", systemImage: "hand.raised")
                             }
@@ -288,6 +303,10 @@ struct TodayView: View {
                 }
             }
         }
+    }
+
+    private func visibleItems(for session: SeedSession) -> [SeedSessionItem] {
+        session.items.filter { SessionScheduler.itemVisible(blocks: $0.blocks, blockNumber: currentBlockNumber) }
     }
 
     private func toolRow(_ title: String, systemImage: String) -> some View {

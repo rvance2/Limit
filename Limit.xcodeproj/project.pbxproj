@@ -38,6 +38,7 @@
 		63D9E3CB226B24D112574FB4 /* SessionLogKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F1512C4E01F62DDFC9F2E /* SessionLogKey.swift */; };
 		6C3DDAA98D5C8C8B892651A8 /* ConditionsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57F93C558315F8EA81FD7EF /* ConditionsService.swift */; };
 		6EDEE7B003B594CD6678D98A /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7983E5DC65C603220F6E4C01 /* NoteView.swift */; };
+		754490E07FF43CC058B65686 /* HangboardTimerEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479C548ED1339D3775824B17 /* HangboardTimerEngine.swift */; };
 		7673347DE9DC09560847EA22 /* ExerciseSetEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BAFC5CE83887EDF4630650 /* ExerciseSetEntryView.swift */; };
 		7E590627BD87C721C8C04167 /* FingerMethodResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794D5C43EC4D36A5EE791D17 /* FingerMethodResolver.swift */; };
 		7F7F0C6865E9037E7FEB823C /* TodaySessionWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D6E0B894A02C113237D4D2 /* TodaySessionWidget.swift */; };
@@ -80,6 +81,7 @@
 		F1857D888692CACD90F91C4E /* Vault in Resources */ = {isa = PBXBuildFile; fileRef = BCBCAB59B2F4248CE17DE656 /* Vault */; };
 		F2CA0F1B177AD2AD3FA5DDDB /* MediaFileStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 597DAC582823E0CC51B214A4 /* MediaFileStore.swift */; };
 		F9FE9B24958F20FC19D1DB1E /* SessionRunnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E31886C35743003B2E9CD2B /* SessionRunnerView.swift */; };
+		FD8A5F154D9BF9AD1604E216 /* HangboardTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6D57B77098CC516BE03965 /* HangboardTimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +128,7 @@
 		359A641BE8C1F1028A2D851A /* SessionCompletionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCompletionView.swift; sourceTree = "<group>"; };
 		37828630F46E11FDBBB3EF22 /* TestItemCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestItemCards.swift; sourceTree = "<group>"; };
 		3F63B24A800C405B80231580 /* FingerStrengthChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingerStrengthChart.swift; sourceTree = "<group>"; };
+		479C548ED1339D3775824B17 /* HangboardTimerEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangboardTimerEngine.swift; sourceTree = "<group>"; };
 		48374405A1F9A843238FE9F3 /* SessionSchedulerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionSchedulerTests.swift; sourceTree = "<group>"; };
 		4D5B5830400F10C3E347D8BF /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		4E08E7A0C713C828735F6C81 /* ExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportService.swift; sourceTree = "<group>"; };
@@ -136,6 +139,7 @@
 		58F1AC0BB07A199A553ECD2D /* ReadinessManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadinessManagerTests.swift; sourceTree = "<group>"; };
 		597DAC582823E0CC51B214A4 /* MediaFileStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaFileStore.swift; sourceTree = "<group>"; };
 		5BC268515B738B742BBE71C7 /* StopRuleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopRuleText.swift; sourceTree = "<group>"; };
+		5E6D57B77098CC516BE03965 /* HangboardTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangboardTimerView.swift; sourceTree = "<group>"; };
 		6A28363A0D8BF36371CF7A06 /* MarkdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownView.swift; sourceTree = "<group>"; };
 		6BFE8D34FD7D6F6EE584B71B /* LoadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadTests.swift; sourceTree = "<group>"; };
 		72687EFABAF3B73366EA3CEB /* ChartDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDataHelpers.swift; sourceTree = "<group>"; };
@@ -369,6 +373,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		734BBBD64D1DE6C59D6CFFC2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5E6D57B77098CC516BE03965 /* HangboardTimerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		7B9E1F06E3781EBBAB17D3AC /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -448,6 +460,7 @@
 				896FBF49B455086585744680 /* Resources */,
 				3CAE38E03DB49AE047E69D8C /* Skin */,
 				13D157C74B94079F2F3463C2 /* Tests */,
+				D40671466EBB6970CDAAEFF9 /* Timer */,
 				3B5599639D407BDD7BF32C5B /* Today */,
 				16F4EE767CD1807424C86F2B /* Views */,
 			);
@@ -472,6 +485,14 @@
 			path = BetaLab;
 			sourceTree = "<group>";
 		};
+		B5DD57C8AD8C7DF66D3D003E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				479C548ED1339D3775824B17 /* HangboardTimerEngine.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		BE49752D6DEC6913212376F1 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
@@ -489,6 +510,15 @@
 				8C1CA448110B1E651319E4E3 /* Views */,
 			);
 			path = Conditions;
+			sourceTree = "<group>";
+		};
+		D40671466EBB6970CDAAEFF9 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				B5DD57C8AD8C7DF66D3D003E /* Models */,
+				734BBBD64D1DE6C59D6CFFC2 /* Views */,
+			);
+			path = Timer;
 			sourceTree = "<group>";
 		};
 		D61B4A497785357377275705 /* Views */ = {
@@ -685,6 +715,8 @@
 				83F5E4716755FAA8D65710D7 /* FingerStrengthChart.swift in Sources */,
 				50927F37D9287DAF5242CA2A /* FootSlipsChart.swift in Sources */,
 				39C6045124010A45D9BAFB72 /* GraphView.swift in Sources */,
+				754490E07FF43CC058B65686 /* HangboardTimerEngine.swift in Sources */,
+				FD8A5F154D9BF9AD1604E216 /* HangboardTimerView.swift in Sources */,
 				AD7448EDFEFEA9BD0B83DDB6 /* HealthManager.swift in Sources */,
 				9CA43C9C302C3B4913676925 /* LibraryView.swift in Sources */,
 				BBC3458A0221DEA733C98BCF /* LimitApp.swift in Sources */,

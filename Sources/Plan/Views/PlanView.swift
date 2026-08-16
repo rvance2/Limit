@@ -402,8 +402,7 @@ struct SessionDetailView: View {
             if let session {
                 let blockNumber = weekInfo.flatMap { SeedStore.shared.blockNumber(for: $0.blockID) }
                 let visibleItems = session.items.filter { item in
-                    guard let blocks = item.blocks, let blockNumber else { return true }
-                    return blocks.contains(blockNumber)
+                    SessionScheduler.itemVisible(blocks: item.blocks, blockNumber: blockNumber)
                 }
 
                 Section(session.name) {

@@ -59,4 +59,17 @@ enum SessionScheduler {
         ).day ?? 0
         return max(0, days / 7)
     }
+
+    /// Whether a session item should show for a given block. A `nil` `blocks` array means the
+    /// item always applies. Block 0 (Baseline Week) has no session content of its own — it's a
+    /// single measurement week before Block 1 starts — so it previews Block 1's content rather
+    /// than matching nothing: every block-gated item would otherwise vanish for the whole week,
+    /// since no item's `blocks` array ever lists 0. Mirrors `FingerMethodResolver`'s existing
+    /// default-to-Block-1 behavior for the same week.
+    static func itemVisible(blocks: [Int]?, blockNumber: Int?) -> Bool {
+        guard let blocks else { return true }
+        guard let blockNumber else { return true }
+        let effectiveBlock = blockNumber == 0 ? 1 : blockNumber
+        return blocks.contains(effectiveBlock)
+    }
 }

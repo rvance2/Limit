@@ -42,6 +42,9 @@ struct SessionRunnerView: View {
         "One Arm Progression", "Deep Shoulder Positions"
     ]
 
+    /// The two protocols the Timer tool actually has presets for.
+    private let hangTimerModules: Set<String> = ["Max Hangs", "MED Hangs", "Repeaters"]
+
     private var blockNumber: Int? { SeedStore.shared.blockNumber(for: blockId) }
 
     /// Attempt Discipline rule 2 only applies to sessions that actually contain attempts.
@@ -53,7 +56,7 @@ struct SessionRunnerView: View {
 
     private var visibleItems: [SeedSessionItem] {
         sessionTemplate.items.filter { item in
-            if let blocks = item.blocks, let blockNumber, !blocks.contains(blockNumber) { return false }
+            if !SessionScheduler.itemVisible(blocks: item.blocks, blockNumber: blockNumber) { return false }
             if isShortOnTime, item.cuttable == .yes { return false }
             return true
         }
@@ -85,6 +88,14 @@ struct SessionRunnerView: View {
         .navigationTitle(sessionTemplate.name)
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
+            // Closes the runner without finishing or canceling the session — the log and
+            // everything logged so far are already persisted as they're entered, so stepping
+            // away and coming back later (via "Resume Session") just reopens the same state.
+            ToolbarItem(placement: .navigationBarLeading) {
+                Button(action: { dismiss() }) {
+                    Image(systemName: "xmark")
+                }
+            }
             if let log = sessionLog, !needsAttemptBudget || log.attemptBudgetLocked {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Menu {
@@ -257,6 +268,13 @@ struct SessionRunnerView: View {
 
             if let module, let dose = module.dose, !dose.isEmpty {
                 Text(MarkdownView.attributed(dose)).font(.subheadline).foregroundStyle(.secondary)
+            }
+
+            if let moduleId = effectiveModuleID, hangTimerModules.contains(moduleId) {
+                NavigationLink(destination: HangboardTimerView()) {
+                    Label("Open Timer", systemImage: "timer")
+                        .font(.caption)
+                }
             }
 
             if let moduleId = effectiveModuleID, setBasedModules.contains(moduleId) {

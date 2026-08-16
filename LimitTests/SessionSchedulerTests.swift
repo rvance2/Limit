@@ -70,6 +70,30 @@ final class SessionSchedulerTests: XCTestCase {
         XCTAssertEqual(SessionScheduler.weekNumber(for: week2, startDate: start), 2)
     }
 
+    // MARK: - itemVisible
+
+    /// Block 0 (Baseline Week) has no session content of its own, so block-gated items should
+    /// preview Block 1's content rather than vanish — no item's `blocks` array ever lists 0,
+    /// so a naive `blocks.contains(blockNumber)` check would hide every gated item all week.
+    func test_itemVisible_block0PreviewsBlock1() {
+        XCTAssertTrue(SessionScheduler.itemVisible(blocks: [1], blockNumber: 0))
+        XCTAssertFalse(SessionScheduler.itemVisible(blocks: [2, 3, 4], blockNumber: 0))
+    }
+
+    func test_itemVisible_nilBlocksAlwaysShows() {
+        XCTAssertTrue(SessionScheduler.itemVisible(blocks: nil, blockNumber: 0))
+        XCTAssertTrue(SessionScheduler.itemVisible(blocks: nil, blockNumber: nil))
+    }
+
+    func test_itemVisible_nilBlockNumberAlwaysShows() {
+        XCTAssertTrue(SessionScheduler.itemVisible(blocks: [2, 3, 4], blockNumber: nil))
+    }
+
+    func test_itemVisible_matchesExactBlockNormally() {
+        XCTAssertTrue(SessionScheduler.itemVisible(blocks: [2, 3, 4], blockNumber: 3))
+        XCTAssertFalse(SessionScheduler.itemVisible(blocks: [2, 3, 4], blockNumber: 1))
+    }
+
     // MARK: - FingerMethodResolver
 
     func test_fingerMethodResolver_block2ResolvesToMEDHangs() {
